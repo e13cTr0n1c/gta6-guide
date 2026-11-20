@@ -1,0 +1,656 @@
+{
+  "groups": [
+    {
+      "id": "buying",
+      "title": "Buying and the launch",
+      "slugs": [
+        "release-time-uk",
+        "price-and-editions",
+        "file-size",
+        "is-gta-6-online",
+        "is-gta-6-on-pc"
+      ]
+    },
+    {
+      "id": "money",
+      "title": "Money",
+      "slugs": ["how-to-make-money-fast", "bank-family-savings"]
+    },
+    {
+      "id": "cars",
+      "title": "Cars, garages and a home",
+      "slugs": [
+        "can-you-buy-cars",
+        "how-to-steal-cars",
+        "garage-prices-locations",
+        "can-you-buy-a-house",
+        "where-to-find-a-tank"
+      ]
+    },
+    {
+      "id": "playing",
+      "title": "Playing",
+      "slugs": [
+        "how-to-save",
+        "how-to-switch-characters",
+        "how-to-lose-wanted-level",
+        "cheats",
+        "phone-apps",
+        "how-long-to-beat"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "slug": "how-to-make-money-fast",
+      "kind": "question",
+      "h1": "How to make money fast in GTA 6",
+      "description": "I rob early, sell cars, then use Chapter 3 robberies and Chapter 4 drops. The guides publish ranges, not a single total.",
+      "lead": "Early on, I rob Illegal Operations and sell the drugs to my fence, and I sell stolen cars at Pay 'n' Spray or to Moses. From Chapter 3 the snap gun opens back-door robberies worth $6,000 to $15,000, and Pilot Pete's drops in Chapter 4 pay $10,000 to $20,000 a run.",
+      "sections": [
+        {
+          "h2": "What I do in the opening chapters",
+          "paragraphs": ["I stick to the jobs the guides name for the early chapters, and I do not smooth over a name they spell two ways."],
+          "facts": ["F031", "F032", "F034", "F039"]
+        },
+        {
+          "h2": "Ranges the guides publish later",
+          "paragraphs": ["These are the ranges and examples in the fact file. I have not turned them into an hourly rate."],
+          "facts": ["F033", "F035", "F036", "F037", "F069"]
+        },
+        {
+          "h2": "Where the sale limit is not settled",
+          "paragraphs": ["I am leaving the Pay 'n' Spray sale limit as a disagreement."],
+          "facts": ["F038"]
+        }
+      ],
+      "related": ["bank-family-savings", "how-to-steal-cars", "garage-prices-locations", "tools/money-planner"]
+    },
+    {
+      "slug": "can-you-buy-cars",
+      "kind": "question",
+      "h1": "How do you buy a car in GTA 6?",
+      "description": "I have not found a dealer. I steal a car and pay to register it, and WAiNK shows the fee first.",
+      "lead": "I have not found a dealer in the guides so far. I steal a car, then pay to register it: with Moses from Chapter 2, at Pay 'n' Spray from Chapter 3, and high-end cars with Randy. The WAiNK app shows each car's registration cost before I take it.",
+      "sections": [
+        {
+          "h2": "How I take ownership",
+          "paragraphs": ["I am careful with the no dealer line, because the fact file says that part is inferred from silence."],
+          "facts": ["F040", "F041"]
+        },
+        {
+          "h2": "Parking is not the same as owning",
+          "paragraphs": ["A garage can keep a stolen car safe. That still does not make it mine."],
+          "facts": ["F044", "F042", "F045"]
+        },
+        {
+          "h2": "Where a sale goes",
+          "facts": ["F071"]
+        }
+      ],
+      "related": ["how-to-steal-cars", "garage-prices-locations", "can-you-buy-a-house", "where-to-find-a-tank"]
+    },
+    {
+      "slug": "garage-prices-locations",
+      "kind": "question",
+      "h1": "All GTA 6 garage prices and locations",
+      "description": "I list 10 garages, from $4,000 to $40,000, plus two free ones. Slot counts differ between the guides.",
+      "lead": "There are 10 garages, from Mitchel Auto Center at $4,000 to Atlantic Court in Ocean Beach at $40,000, bought in the Vice City Real Estate app. Two are free: Port Gellhorn Station from Moses, and Paradise Garage with the Ultimate Edition.",
+      "sections": [
+        {
+          "h2": "The ten published prices",
+          "paragraphs": ["These are the 10 garages in the fact file, in the stored order, with the dollar prices GameSpot published. I have not converted them to pounds."],
+          "garage_list": true,
+          "facts": ["F050", "F049"],
+          "price_note": "garages_note"
+        },
+        {
+          "h2": "How many vehicles fit",
+          "paragraphs": ["Sources differ on capacity, so I show both accounts and I do not invent a slot count for each address."],
+          "facts": ["F043", "F042"]
+        }
+      ],
+      "related": ["can-you-buy-cars", "can-you-buy-a-house", "how-to-make-money-fast", "tools/garage-cost-planner"]
+    },
+    {
+      "slug": "can-you-buy-a-house",
+      "kind": "question",
+      "h1": "Can you buy a house in GTA 6?",
+      "description": "No. I cannot buy a home in GTA 6. The estate app sells garages, and safehouses come with the story.",
+      "lead": "No. I cannot buy my own home. The Vice City Real Estate app only sells garages, and safehouses come with the story.",
+      "sections": [
+        {
+          "h2": "What the guides actually say",
+          "facts": ["F048"]
+        },
+        {
+          "h2": "What I can buy instead",
+          "paragraphs": ["Garages are the property in the reputable coverage. The prices are on the garage page."],
+          "price_note": "properties_note",
+          "facts": ["F049", "F050"]
+        }
+      ],
+      "related": ["garage-prices-locations", "can-you-buy-cars", "bank-family-savings", "how-to-make-money-fast"]
+    },
+    {
+      "slug": "how-to-save",
+      "kind": "question",
+      "h1": "How to save in GTA 6",
+      "description": "I open Start or Options, choose Game, and use one of 15 slots. A cheat blocks saving for that session.",
+      "lead": "I press Start or Options, choose Game, pick one of 15 slots and select Save Game. There is also one autosave slot, but I cannot save during a mission, and using a cheat stops saving for that session.",
+      "sections": [
+        {
+          "h2": "The save menu",
+          "facts": ["F051"]
+        },
+        {
+          "h2": "What blocks a save",
+          "facts": ["F052"]
+        },
+        {
+          "h2": "If I mess up during a mission",
+          "paragraphs": ["This is not a save. It is how I undo a mistake while a mission is still running."],
+          "facts": ["F065"]
+        }
+      ],
+      "related": ["cheats", "how-to-switch-characters", "how-to-lose-wanted-level", "phone-apps"]
+    },
+    {
+      "slug": "how-to-switch-characters",
+      "kind": "question",
+      "h1": "How to switch between Jason and Lucia",
+      "description": "Switching unlocks after Breakfast Run. I hold Right on the D-pad and pick Jason or Lucia.",
+      "lead": "Free switching unlocks after the Chapter 2 mission 'Breakfast Run'. After that, I hold Right on the D-pad and pick a character in the bottom right. The same menu can summon my partner or split us up.",
+      "sections": [
+        {
+          "h2": "Who the two characters are",
+          "facts": ["F023"]
+        },
+        {
+          "h2": "When the switch unlocks",
+          "facts": ["F053"]
+        }
+      ],
+      "related": ["how-to-save", "phone-apps", "how-long-to-beat", "how-to-lose-wanted-level"]
+    },
+    {
+      "slug": "how-to-lose-wanted-level",
+      "kind": "question",
+      "h1": "How to lose your wanted level (heat) in GTA 6",
+      "description": "I leave the red heat zone, then clear heat with clothes, a respray, a stowed weapon, or by splitting up.",
+      "lead": "First I break line of sight and get out of the red heat zone on the map. Then I clear each heat icon: I change my outfit or put on a hat and sunglasses, swap or respray the car, stow longarms, split from my partner, and destroy CCTV.",
+      "sections": [
+        {
+          "h2": "Stars and the red zone",
+          "facts": ["F054"]
+        },
+        {
+          "h2": "Clearing each heat icon",
+          "facts": ["F055"]
+        },
+        {
+          "h2": "How many stars a crime is worth",
+          "paragraphs": ["I only have one source for those star counts, and another guide is looser, so I treat the numbers as approximate."],
+          "facts": ["F056"]
+        }
+      ],
+      "related": ["how-to-steal-cars", "where-to-find-a-tank", "how-to-save", "phone-apps"]
+    },
+    {
+      "slug": "cheats",
+      "kind": "question",
+      "h1": "GTA 6 cheats and how to unlock them",
+      "description": "Cheats unlock after the story. I enter them on the phone, and saving stops for that session.",
+      "lead": "Cheats only unlock after I finish the story, and each one needs its own challenge. To enter one, I open the phone, hold L1 and R1 (LB and RB) and press the D-pad code. The $250,000 cheat is Up, Right, Down, Left, Up, Left, Down, Right, and it disables saving.",
+      "sections": [
+        {
+          "h2": "The code I can actually publish",
+          "paragraphs": ["Many codes are still unknown. I am not filling the blanks."],
+          "facts": ["F068"]
+        },
+        {
+          "h2": "The catch",
+          "facts": ["F052"]
+        }
+      ],
+      "related": ["how-to-save", "tools/cheat-finder", "how-to-make-money-fast", "how-long-to-beat"]
+    },
+    {
+      "slug": "release-time-uk",
+      "kind": "question",
+      "h1": "When did GTA 6 come out in the UK?",
+      "description": "GTA 6 unlocked in the UK at midnight GMT on 19 November 2026. This page records that launch.",
+      "lead": "It has already happened. GTA 6 unlocked at midnight GMT on Thursday 19 November 2026 on PS5 and Xbox Series X|S. PS5 copies unlocked by store region, and Xbox players could start earlier by changing their time zone. I am writing this on 20 November 2026, so this is a record of the launch.",
+      "sections": [
+        {
+          "h2": "What had already happened by the next day",
+          "paragraphs": ["Read this as history. The UK unlock was midnight GMT on 19 November 2026, and I checked the record on 20 November 2026."],
+          "facts": ["F001", "F003"]
+        },
+        {
+          "h2": "How the rolling unlock worked",
+          "paragraphs": ["One of these points is only reported, and the note on US time zones is unclear in the source, so I am not tidying it up."],
+          "facts": ["F002", "F004", "F005"]
+        }
+      ],
+      "related": ["price-and-editions", "file-size", "is-gta-6-on-pc", "is-gta-6-online"]
+    },
+    {
+      "slug": "price-and-editions",
+      "kind": "question",
+      "h1": "How much is GTA 6 in the UK? Standard vs Ultimate",
+      "description": "UK Standard is £69.99 and Ultimate is £89.99. A boxed copy is a download code, not a disc.",
+      "lead": "Standard costs £69.99 and Ultimate costs £89.99 (US $79.99 and $99.99). Ultimate is digital and adds the '95 Grotti Cheetah, extra revolvers, a garage and a buggy, and five extra shops. Boxed copies contain a download code, not a disc.",
+      "sections": [
+        {
+          "h2": "The sticker prices",
+          "paragraphs": ["I do not have a confirmed UK price for a standalone Ultimate upgrade. The fact file says that part is still unknown."],
+          "facts": ["F010", "F011", "F012"]
+        },
+        {
+          "h2": "What Ultimate includes",
+          "paragraphs": ["The contents below are the list stored in the fact file. I have not shortened the names."],
+          "facts": ["F014", "F015", "F016"]
+        },
+        {
+          "h2": "Boxed copies",
+          "facts": ["F013"]
+        }
+      ],
+      "related": ["file-size", "release-time-uk", "is-gta-6-on-pc", "is-gta-6-online"]
+    },
+    {
+      "slug": "file-size",
+      "kind": "question",
+      "h1": "How big is GTA 6? File size and storage",
+      "description": "I would clear 212GB. Rockstar says up to 212GB, and PlayStation says at least 212GB.",
+      "lead": "Rockstar says up to 212GB depending on the device, and the PlayStation page says to clear at least 212GB. Preload opened on 10 November. I would clear 212GB, because the fact file says that is the safe reading when the wording differs.",
+      "sections": [
+        {
+          "h2": "The two wordings",
+          "paragraphs": ["The wording differs, so I am not pretending the two pages say the same thing."],
+          "facts": ["F018"]
+        },
+        {
+          "h2": "Preload, and which consoles",
+          "facts": ["F017", "F006"]
+        }
+      ],
+      "related": ["price-and-editions", "release-time-uk", "is-gta-6-on-pc", "is-gta-6-online"]
+    },
+    {
+      "slug": "is-gta-6-online",
+      "kind": "question",
+      "h1": "Does GTA 6 have online multiplayer?",
+      "description": "Not at launch. It is a single player game so far, and no online mode or date has been announced.",
+      "lead": "Not at launch. Rockstar calls GTA 6 a single-player experience and has not announced an online mode or a date, though existing GTA Online carries on.",
+      "sections": [
+        {
+          "h2": "What was said about launch",
+          "facts": ["F019", "F020"]
+        },
+        {
+          "h2": "What is only speculation",
+          "paragraphs": ["I am labelling this as speculation so it does not read like a date."],
+          "facts": ["F021"]
+        }
+      ],
+      "related": ["is-gta-6-on-pc", "release-time-uk", "how-long-to-beat", "cheats"]
+    },
+    {
+      "slug": "is-gta-6-on-pc",
+      "kind": "question",
+      "h1": "Is GTA 6 on PC?",
+      "description": "Not yet. GTA 6 is on PS5 and Xbox Series X|S. A reported PC date is still unconfirmed.",
+      "lead": "Not yet. It is on PS5 and Xbox Series X|S only, and Xbox One can play through Xbox Cloud Gaming. A GamesBeat report says a PC release in Q1 2027, but Rockstar has not confirmed it.",
+      "sections": [
+        {
+          "h2": "Where I can play it now",
+          "facts": ["F006", "F007", "F001"]
+        },
+        {
+          "h2": "The PC report",
+          "paragraphs": ["This report is unconfirmed. I am not treating Q1 2027 as a release date."],
+          "facts": ["F009"]
+        }
+      ],
+      "related": ["is-gta-6-online", "release-time-uk", "file-size", "price-and-editions"]
+    },
+    {
+      "slug": "bank-family-savings",
+      "kind": "question",
+      "h1": "How does the bank (BuckMe) and Family Savings work?",
+      "description": "I can hold $20,000 in cash and I lose it if I am Wasted or Busted. Family Savings cannot be withdrawn.",
+      "lead": "Each character can carry up to $20,000 in cash, and I lose it if I am Wasted or Busted, so I bank it at an ATM. Purchases over $1,000 go through BuckMe checking. Money in Family Savings can never come back out, and it affects the ending.",
+      "sections": [
+        {
+          "h2": "Pocket cash",
+          "facts": ["F027", "F030"]
+        },
+        {
+          "h2": "BuckMe checking",
+          "paragraphs": ["The guides say the balance limits rise later in the story. They do not state the dollar amount of each limit, so I am not filling those in."],
+          "facts": ["F028"]
+        },
+        {
+          "h2": "Family Savings",
+          "paragraphs": ["The guides name five tiers. They do not list a dollar amount for each tier in the fact I have."],
+          "facts": ["F029"]
+        }
+      ],
+      "related": ["how-to-make-money-fast", "garage-prices-locations", "can-you-buy-a-house", "phone-apps"]
+    },
+    {
+      "slug": "where-to-find-a-tank",
+      "kind": "question",
+      "h1": "Where to find a tank in GTA 6",
+      "description": "The Hauners Rhino tanks in the guide are at Mile Zero Air Station. Getting spotted means five stars.",
+      "lead": "The only Hauners Rhino tanks found so far are at Mile Zero Air Station, west of Key Lento in the Leonida Keys, usually in the hangars. If I am spotted getting in, I get an instant five-star wanted level.",
+      "sections": [
+        {
+          "h2": "The only place the guide names",
+          "facts": ["F047"]
+        },
+        {
+          "h2": "What the star scale is",
+          "paragraphs": ["The five-star warning sits on the normal star scale, which goes up to six."],
+          "facts": ["F054"]
+        }
+      ],
+      "related": ["how-to-lose-wanted-level", "how-to-steal-cars", "can-you-buy-cars", "garage-prices-locations"]
+    },
+    {
+      "slug": "how-to-steal-cars",
+      "kind": "question",
+      "h1": "How to steal cars in GTA 6 (slim jim, key cloner, trackers)",
+      "description": "I scan with WAiNK, use a slim jim from Chapter 2, and a key cloner from Chapter 3 for keyless cars.",
+      "lead": "I scan a car with the WAiNK app first. A slim jim from Moses in Chapter 2 opens locks quietly, and the key cloner from Chapter 3 is needed for keyless cars. Advanced trackers alert the police unless I keep driving fast.",
+      "sections": [
+        {
+          "h2": "The tools, in story order",
+          "facts": ["F046"]
+        },
+        {
+          "h2": "Keeping the car afterwards",
+          "facts": ["F040", "F041", "F044"]
+        },
+        {
+          "h2": "Selling, and the limit the guides do not share",
+          "facts": ["F032", "F071", "F038"]
+        }
+      ],
+      "related": ["can-you-buy-cars", "how-to-make-money-fast", "how-to-lose-wanted-level", "garage-prices-locations"]
+    },
+    {
+      "slug": "phone-apps",
+      "kind": "question",
+      "h1": "Every GTA 6 phone app and what it does",
+      "description": "I press Up for the phone. BuckMe, RydeMe, Scooter Bros, WAiNK and Vice City Real Estate are the key apps.",
+      "lead": "I press Up on the D-pad for the phone. The key apps are BuckMe for the bank, RydeMe for a taxi and fast travel, Scooter Bros for car delivery, WAiNK for the car scanner, and Vice City Real Estate for garages.",
+      "sections": [
+        {
+          "h2": "How I open it",
+          "facts": ["F058"]
+        },
+        {
+          "h2": "The apps on the list",
+          "paragraphs": ["I have not added any app that is missing from this list."],
+          "facts": ["F059"]
+        }
+      ],
+      "related": ["bank-family-savings", "how-to-switch-characters", "can-you-buy-cars", "how-to-save"]
+    },
+    {
+      "slug": "how-long-to-beat",
+      "kind": "question",
+      "h1": "How long is GTA 6 and how many missions?",
+      "description": "There are 91 main missions. The story is 65+ hours, side content is 90 to 100, and 100% is past 200.",
+      "lead": "There are 91 main missions over five chapters. GameSpot puts the story at 65+ hours, 90 to 100 hours with side content, and 200+ hours for 100%.",
+      "sections": [
+        {
+          "h2": "Missions and hours",
+          "facts": ["F026"]
+        },
+        {
+          "h2": "How the opening feels",
+          "paragraphs": ["The opening is long, and free character switching is one of the things that waits."],
+          "facts": ["F039", "F053"]
+        },
+        {
+          "sentence_links": [
+            {"text": "Want to track your missions and collectibles? "},
+            {
+              "text": "I made a free fill-it-in-yourself progress sheet",
+              "href": "https://arthurverse67.gumroad.com/l/openworldtrackerlite",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {"text": " "},
+            {
+              "text": "or the full version for £3.99",
+              "href": "https://arthurverse67.gumroad.com/l/openworldtracker",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {"text": ". It is a blank sheet you fill in yourself, not official data."}
+          ]
+        }
+      ],
+      "related": ["how-to-switch-characters", "how-to-make-money-fast", "how-to-save", "is-gta-6-online"]
+    },
+    {
+      "slug": "tools",
+      "kind": "tool",
+      "h1": "Which GTA 6 planning tools does this guide include?",
+      "description": "Three planners for garages, money ranges, and the one published cheat. No vehicle or weapon price lookup.",
+      "lead": "I only built tools where the fact file has real figures. There is a garage cost planner, a money planner that stays in ranges, and a cheat finder. I do not offer a vehicle price lookup or a weapon price lookup.",
+      "sections": [
+        {
+          "h2": "What I will not build",
+          "paragraphs": ["The fact file is blunt about the two lookups people usually want. I am quoting that, and I have not added a form that pretends otherwise."],
+          "unsupported_tools": true,
+          "facts": ["F067"]
+        }
+      ],
+      "related": ["tools/garage-cost-planner", "tools/money-planner", "tools/cheat-finder", "how-to-make-money-fast"]
+    },
+    {
+      "slug": "tools/garage-cost-planner",
+      "kind": "tool",
+      "tool": "garage",
+      "h1": "What do my chosen GTA 6 garages cost?",
+      "description": "I add the published garage prices and show both slot readings, because the guides do not agree.",
+      "lead": "I add up the garage prices from the list of 10, then I show slot capacity both ways. PC Gamer counts one car per garage. GameSpot says one or a couple, and gives Valentina's garage two slots.",
+      "sections": [
+        {
+          "h2": "The prices behind the ticks",
+          "paragraphs": ["Shore Court is in the note below. I do not have a price or a slot count for it, so it is not a tick."],
+          "garage_list": true,
+          "price_note": "garages_note",
+          "facts": ["F050", "F043", "F042"]
+        }
+      ],
+      "related": ["garage-prices-locations", "tools/money-planner", "can-you-buy-cars", "can-you-buy-a-house"]
+    },
+    {
+      "slug": "tools/money-planner",
+      "kind": "tool",
+      "tool": "money",
+      "h1": "What payout ranges do the GTA 6 guides publish?",
+      "description": "I show activity payout ranges and the cash limits. These are estimates from published guides, not exact sums.",
+      "lead": "I can line the published payout ranges up next to the cash limits. I show ranges only, and I never add them into an exact sum. These are estimates from published guides.",
+      "sections": [
+        {
+          "h2": "The cash limits",
+          "facts": ["F027", "F028"]
+        },
+        {
+          "h2": "The published wording",
+          "paragraphs": ["Every line below is the wording stored in the fact file. These figures are estimates from published guides."],
+          "activity_list": true
+        }
+      ],
+      "related": ["how-to-make-money-fast", "bank-family-savings", "tools/garage-cost-planner", "garage-prices-locations"]
+    },
+    {
+      "slug": "tools/cheat-finder",
+      "kind": "tool",
+      "tool": "cheats",
+      "h1": "Which GTA 6 cheat codes have been published?",
+      "description": "I can search the one money code in the fact file. Many GTA 6 cheat codes are still unknown.",
+      "lead": "I can search the cheat list that is actually in the fact file. There is one published code, for $250,000, and it unlocks when I finish the story. Many codes are still unknown.",
+      "sections": [
+        {
+          "h2": "The sourced entry",
+          "facts": ["F068", "F052"]
+        }
+      ],
+      "related": ["cheats", "how-to-save", "how-long-to-beat", "how-to-make-money-fast"]
+    },
+    {
+      "slug": "about",
+      "kind": "info",
+      "example_outlets": true,
+      "h1": "What is this GTA 6 fan guide?",
+      "description": "An unofficial fan guide. I copy each game fact from published outlets and I keep the link.",
+      "lead": "I wrote this as an unofficial fan guide for people starting GTA 6. I am not affiliated with Rockstar Games or Take-Two.",
+      "sources_note": "This page explains the method. It does not add a game fact. The links are example articles already stored in the fact file, one for each outlet name, so you can see the kind of source I use.",
+      "sections": [
+        {
+          "h2": "How a fact gets onto a page",
+          "paragraphs": [
+            "Every game fact on the question pages is copied from the fact file in this project. I keep the outlet and the link with the claim.",
+            "The fact file limits me to these outlets: {{scope_note}}",
+            "Where the file says the sources differ, or that something is unknown, reported, or speculation, I say that in plain words. I do not pick a winner, and I do not fill a gap from a fan wiki.",
+            "I do not use official artwork, official typefaces, or official marks. The shapes at the top of the page are mine. There are no ads and no trackers.",
+            "The date on each page is the day I last checked the fact file: {{checked}}."
+          ]
+        }
+      ],
+      "related": ["privacy", "cookies", "tools", "how-to-make-money-fast"]
+    },
+    {
+      "slug": "privacy",
+      "kind": "info",
+      "h1": "What data does this fan guide collect?",
+      "description": "None. This static guide has no accounts, no analytics, and no third party scripts.",
+      "lead": "I do not collect accounts, messages, or analytics. The pages are static files.",
+      "sources_note": "This page does not state a game fact, so there is no outlet list.",
+      "sections": [
+        {
+          "h2": "What leaves your machine",
+          "paragraphs": [
+            "I do not embed third party scripts, fonts, or adverts. Loading a page does not call an analytics service.",
+            "If a host such as GitHub serves these files, that host can keep its own connection logs. I do not receive those logs, and I cannot see who you are.",
+            "The planners do not write to storage on your machine. When you leave the page, the ticks are gone.",
+            "I do not sell or share personal data, because this guide does not take any."
+          ]
+        }
+      ],
+      "related": ["cookies", "about", "tools"]
+    },
+    {
+      "slug": "cookies",
+      "kind": "info",
+      "h1": "Does this fan guide use cookies?",
+      "description": "No. I do not set cookies, and the planners forget your ticks when you leave the page.",
+      "lead": "No. I do not set cookies, and I do not store your planner ticks.",
+      "sources_note": "This page does not state a game fact, so there is no outlet list.",
+      "sections": [
+        {
+          "h2": "Nothing to accept",
+          "paragraphs": [
+            "I do not set cookies. I do not use local storage, session storage, or anything similar to remember you.",
+            "There is no consent banner, because there is nothing to accept.",
+            "If you followed a link from somewhere else, that other site may use its own cookies. Once you are here, I do not add any."
+          ]
+        }
+      ],
+      "related": ["privacy", "about", "tools"]
+    },
+    {
+      "slug": "gift-ideas",
+      "kind": "info",
+      "seasonal": "gift",
+      "h1": "Gift ideas for a GTA 6 fan this Christmas",
+      "description": "Printable kits and retro phone wallpapers. The lite ones are free. This page states no game facts.",
+      "lead": "I am not giving game advice on this page. For a Christmas extra, I have a free Lite kit, a full kit, and a free pack of retro phone wallpapers.",
+      "sources_note": "This page does not state a game fact. The full kit is £2.49 and the full wallpaper pack is £1.99 on the Gumroad summaries I loaded on 20 November 2026. The progress sheet is a blank file you fill in yourself.",
+      "sections": [
+        {
+          "h2": "The two kits",
+          "paragraphs": [
+            "Gamer Gift Kit Lite is free. The page I loaded shows £0+.",
+            "The full Gamer Gift Kit is £2.49."
+          ],
+          "external_links": [
+            {
+              "label": "Gamer Gift Kit Lite",
+              "href": "https://arthurverse67.gumroad.com/l/gamergiftkitlite",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {
+              "label": "Gamer Gift Kit",
+              "href": "https://arthurverse67.gumroad.com/l/gamergiftkit",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            }
+          ]
+        },
+        {
+          "h2": "Phone wallpapers",
+          "paragraphs": ["A free pack of three retro phone wallpapers, and a larger pack if you want the rest."],
+          "image": {
+            "src": "assets/neon-night-drive.webp",
+            "width": 200,
+            "height": 200,
+            "alt": "Neon Night Drive wallpaper preview"
+          },
+          "sentence_links": [
+            {"text": "Neon Night Drive Wallpapers Lite (free)", "href": "https://arthurverse67.gumroad.com/l/neonnightdrivelite", "outlet": "Gumroad", "published": "2026-11-20"},
+            {"text": " "},
+            {"text": "or the full pack for £1.99", "href": "https://arthurverse67.gumroad.com/l/neonnightdrive", "outlet": "Gumroad", "published": "2026-11-20"},
+            {"text": "."}
+          ]
+        },
+        {
+          "keep": true,
+          "sentence_links": [
+            {"text": "Want to track your missions and collectibles? "},
+            {
+              "text": "I made a free fill-it-in-yourself progress sheet",
+              "href": "https://arthurverse67.gumroad.com/l/openworldtrackerlite",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {"text": " "},
+            {
+              "text": "or the full version for £3.99",
+              "href": "https://arthurverse67.gumroad.com/l/openworldtracker",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {"text": ". It is a blank sheet you fill in yourself, not official data."}
+          ]
+        }
+      ],
+      "related": ["about"]
+    },
+    {
+      "slug": "404",
+      "kind": "info",
+      "h1": "I cannot find that page",
+      "description": "That page is not in this fan guide. The questions are listed on the home page.",
+      "lead": "That address is not in this guide. The home page lists the questions I have actually written.",
+      "sources_note": "This page does not state a game fact, so there is no outlet list.",
+      "sections": [
+        {
+          "h2": "Where to go instead",
+          "paragraphs": ["Use the questions link in the header. If a tool was what you wanted, the tools page lists the three planners I built."]
+        }
+      ],
+      "related": ["tools", "about", "how-to-make-money-fast"]
+    }
+  ]
+}

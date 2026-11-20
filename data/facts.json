@@ -1,0 +1,1754 @@
+{
+ "checked_on": "2026-11-20",
+ "scope_note": "Reputable outlets only: official Rockstar/PlayStation, IGN, PC Gamer, GameSpot, Polygon, GamesRadar+, Eurogamer, The Verge, The Guardian, VICE. Fan wikis excluded.",
+ "facts": [
+  {
+   "id": "F001",
+   "topic": "release",
+   "claim": "GTA VI is out now worldwide on PlayStation 5 and Xbox Series X|S; Rockstar's 'Out Now' post is dated 19 November 2026.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.rockstargames.com/VI/out-now",
+     "outlet": "Rockstar Games (official)",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F002",
+   "topic": "release",
+   "claim": "Release used a rolling local-midnight unlock on 19 November 2026 in each region, starting at 00:00 NZDT in New Zealand (11:00 GMT on 18 Nov).",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+     "outlet": "PlayStation Blog (official)",
+     "published": "2026-11-10"
+    },
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-release-time/",
+     "outlet": "GamesRadar+",
+     "published": "pre-launch, Nov 2026 (exact date not shown)"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F003",
+   "topic": "release",
+   "claim": "UK release: 00:00 local time (GMT) on Thursday 19 November 2026 on PS5. The UK is on GMT in November, so midnight UK time.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.playstation.com/en-gb/support/games/gta-vi-support/",
+     "outlet": "PlayStation UK support (official)",
+     "published": "undated"
+    },
+    {
+     "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+     "outlet": "PlayStation Blog (official)",
+     "published": "2026-11-10"
+    }
+   ],
+   "checked_on": "2026-11-20",
+   "note": "The premise that it 'has not launched in the UK yet' is outdated: by 20 Nov 2026 it has been out in the UK for over a day."
+  },
+  {
+   "id": "F004",
+   "topic": "release",
+   "claim": "On PS5 the unlock follows the PlayStation Store region of purchase; on Xbox (single global store) GamesRadar reports players could get earlier access by changing the console time zone (the 'New Zealand' method).",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-release-time/",
+     "outlet": "GamesRadar+",
+     "published": "pre-launch, Nov 2026 (exact date not shown)"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F005",
+   "topic": "release",
+   "claim": "GamesRadar's own testing showed the US PSN Store set to midnight EST (9pm PST on 18 Nov); unclear whether other US time zones were corrected.",
+   "status": "reported",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-release-time/",
+     "outlet": "GamesRadar+",
+     "published": "pre-launch, Nov 2026 (exact date not shown)"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F006",
+   "topic": "platform",
+   "claim": "Platforms at launch: PS5 (PS5 Pro enhanced) and Xbox Series X|S. Not playable on PS4.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+     "outlet": "PlayStation US store page (official)",
+     "published": "undated"
+    },
+    {
+     "url": "https://www.rockstargames.com/VI/out-now",
+     "outlet": "Rockstar Games (official)",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F007",
+   "topic": "platform",
+   "claim": "Xbox Cloud Gaming available at launch, which also lets Xbox One play via streaming. No cloud streaming on PlayStation; Remote Play from your own console supported.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/gta-6-ps5-pro-features-frame-rates-and-xbox-cloud-gaming-details-confirmed-by-rockstar/",
+     "outlet": "GameSpot",
+     "published": "2026-11-10"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F008",
+   "topic": "platform",
+   "claim": "All platforms run at 30fps per Rockstar; PS5 Pro adds PSSR upscaling and exclusive ray-traced shadows.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/gta-6-ps5-pro-features-frame-rates-and-xbox-cloud-gaming-details-confirmed-by-rockstar/",
+     "outlet": "GameSpot",
+     "published": "2026-11-10"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F009",
+   "topic": "platform",
+   "claim": "PC: no PC version announced by Rockstar. GamesBeat (via Polygon) reported a PC release in Q1 2027 from four anonymous sources; unconfirmed.",
+   "status": "reported/unconfirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-pc-release-q1-2027-rumor/",
+     "outlet": "Polygon",
+     "published": "Oct 2026 (exact date not shown; heise dates the GamesBeat report 14 Oct 2026)"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F010",
+   "topic": "price",
+   "claim": "UK price: Standard Edition £69.99, Ultimate Edition £89.99. US: $79.99 / $99.99.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pre-order-editions-standard-ultimate/",
+     "outlet": "PC Gamer",
+     "published": "2026-06-25"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F011",
+   "topic": "price",
+   "claim": "Eurozone price: Standard €79.99, Ultimate €99.99.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.eurogamer.de/gta-6-vorbestellen-preise-editionen",
+     "outlet": "Eurogamer.de",
+     "published": "2026-06-25"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F012",
+   "topic": "price",
+   "claim": "Ultimate Edition upgrade: PC Gamer describes it as a '$20 upgrade'; the exact UK price of a standalone upgrade was not found in the reputable sources checked.",
+   "status": "partly unknown",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pre-order-editions-standard-ultimate/",
+     "outlet": "PC Gamer",
+     "published": "2026-06-25"
+    }
+   ],
+   "checked_on": "2026-11-20",
+   "note": "Non-list sources (The Scotsman, GTALAB) say the upgrade is £20 / buyable later; not recorded as confirmed."
+  },
+  {
+   "id": "F013",
+   "topic": "editions",
+   "claim": "Physical (code-in-box) copies contain a download code, not a disc. Code-in-box versions 'should' be at retailers from 12 November.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://in.ign.com/grand-theft-auto-vi/276047/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map",
+     "outlet": "IGN India",
+     "published": "2026-11-03"
+    },
+    {
+     "url": "https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games",
+     "outlet": "The Verge",
+     "published": "Nov 2026 (exact date not shown)"
+    },
+    {
+     "url": "https://www.eurogamer.de/gta-6-vorbestellen-preise-editionen",
+     "outlet": "Eurogamer.de",
+     "published": "2026-06-25"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F014",
+   "topic": "editions",
+   "claim": "Ultimate Edition contents (Rockstar text via PC Gamer): '95 Grotti Cheetah; Ganado Retro Build; Shitzu Squalo boat; '67 Vapid Dominator Buggy and Paradise Garage (Watson Bay); Jason's Safehouse Vehicles (Dinka Enduro motorcycle, Crest Kayak); Hawk & Little Morgan Revolvers; personalised Girardi ES9 and Klose K17 pistols; Vice City Style; Goodtime Gear; Classic Car Collection activity (Wyman); PTT Youngin$ Compound; Rideout Customs; Sara's Unisex Salon; Stock 305; Electric Fang Tattoo; One-Eyed Willie's.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pre-order-editions-standard-ultimate/",
+     "outlet": "PC Gamer",
+     "published": "2026-06-25"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F015",
+   "topic": "editions",
+   "claim": "Pre-order bonus: Vintage Vice City Pack ('55 Vapid Stanier stored at Shore Court garage, outfits/hairstyles, tropical weapon pattern) plus one month of GTA+ for digital pre-orders.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pre-order-editions-standard-ultimate/",
+     "outlet": "PC Gamer",
+     "published": "2026-06-25"
+    },
+    {
+     "url": "https://za.ign.com/grand-theft-auto-online/235528/gta-6-is-a-single-player-experience-rockstar-confirms-what-now-for-gta-online",
+     "outlet": "IGN (Africa edition, Wesley Yin-Poole)",
+     "published": "2026-06-24"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F016",
+   "topic": "editions",
+   "claim": "On PlayStation the Ultimate Edition is sold via PlayStation Store only; upgrades from digital Standard or code-in-box Standard are only on PlayStation Store.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.playstation.com/en-gb/support/games/gta-vi-support/",
+     "outlet": "PlayStation UK support (official)",
+     "published": "undated"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F017",
+   "topic": "preload",
+   "claim": "Preload began 10 November 2026: PS5 at midnight local time; Xbox Series X|S at 00:00 GMT worldwide.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://in.ign.com/grand-theft-auto-vi/276047/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map",
+     "outlet": "IGN India",
+     "published": "2026-11-03"
+    },
+    {
+     "url": "https://www.polygon.com/gta-6-preload-when-is-ps5-xbox-times-file-size-gb-poster-map-rockstar/",
+     "outlet": "Polygon",
+     "published": "Nov 2026 (exact date not shown)"
+    },
+    {
+     "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+     "outlet": "PlayStation Blog (official)",
+     "published": "2026-11-10"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F018",
+   "topic": "file_size",
+   "claim": "Preload/install size is 'up to 212GB' depending on device (Rockstar). PlayStation US page says clear 'a minimum of 212GB'.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games",
+     "outlet": "The Verge",
+     "published": "Nov 2026 (exact date not shown)"
+    },
+    {
+     "url": "https://www.polygon.com/gta-6-preload-when-is-ps5-xbox-times-file-size-gb-poster-map-rockstar/",
+     "outlet": "Polygon",
+     "published": "Nov 2026 (exact date not shown)"
+    },
+    {
+     "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+     "outlet": "PlayStation US store page (official)",
+     "published": "undated"
+    }
+   ],
+   "checked_on": "2026-11-20",
+   "note": "Wording differs: Rockstar 'up to 212GB' vs PlayStation 'minimum of 212GB'. Safe advice: clear 212GB."
+  },
+  {
+   "id": "F019",
+   "topic": "online",
+   "claim": "GTA VI launched as a 'single-player experience' (Rockstar to IGN and storefronts). No new online mode at launch; Rockstar has not announced a GTA VI Online name or date.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://za.ign.com/grand-theft-auto-online/235528/gta-6-is-a-single-player-experience-rockstar-confirms-what-now-for-gta-online",
+     "outlet": "IGN (Africa edition, Wesley Yin-Poole)",
+     "published": "2026-06-24"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F020",
+   "topic": "online",
+   "claim": "Take-Two's Strauss Zelnick has said Take-Two supports legacy titles while communities stay engaged (NBA 2K Online example), suggesting existing GTA Online continues.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://za.ign.com/grand-theft-auto-online/235528/gta-6-is-a-single-player-experience-rockstar-confirms-what-now-for-gta-online",
+     "outlet": "IGN (Africa edition, Wesley Yin-Poole)",
+     "published": "2026-06-24"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F021",
+   "topic": "online",
+   "claim": "GameSpot notes reports that the story appears as a separate download, fuelling speculation an online mode is not far off. Speculation only.",
+   "status": "speculation",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/gta-6-ps5-pro-features-frame-rates-and-xbox-cloud-gaming-details-confirmed-by-rockstar/",
+     "outlet": "GameSpot",
+     "published": "2026-11-10"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F022",
+   "topic": "reception",
+   "claim": "GameSpot scored it 10/10; GameSpot's game page shows Metacritic 99.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/gta-6-finally-changed-the-default-rockstar-game-controls/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    {
+     "url": "https://www.gamespot.com/games/grand-theft-auto-vi/guides",
+     "outlet": "GameSpot",
+     "published": "checked 2026-11-20"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F023",
+   "topic": "story",
+   "claim": "Protagonists: Jason Duval (ex-Army, working for drug runners in the Keys) and Lucia Caminos (out of Leonida Penitentiary, family from Liberty City).",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/",
+     "outlet": "PlayStation Blog (official, Rockstar post)",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F024",
+   "topic": "map",
+   "claim": "Setting: the state of Leonida, with six regions: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/",
+     "outlet": "PlayStation Blog (official, Rockstar post)",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F025",
+   "topic": "map",
+   "claim": "Rockstar (via The New York Times, reported by Polygon) says the playable area is about three times Red Dead Redemption 2's. No official square-mile figure.",
+   "status": "reported",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-map-size-game-length/",
+     "outlet": "Polygon",
+     "published": "2026-08-27"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F026",
+   "topic": "length",
+   "claim": "91 main missions across five chapters (22, 11, 26, 25, 7). Main story 65+ hours; GameSpot staff with side content 90 to 100 hours; 100% estimated 200+ hours.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/how-long-to-beat-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F027",
+   "topic": "money",
+   "claim": "Pocket cash: each character can carry up to $20,000. All pocket cash is lost if Wasted or Busted. Cash covers purchases up to $1,000; larger purchases need BuckMe.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-money-buckme-bank-account-manage/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F028",
+   "topic": "money",
+   "claim": "BuckMe checking account unlocks in Chapter 1 (mission 'Buck Me'); each character has their own; balance limits rise with story progress (upgrades in Ch 2, 3 and 4). Over the limit, incoming payments are held as pending.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-money-buckme-bank-account-manage/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.polygon.com/gta-6-phone-apps-list-how-to-use/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F029",
+   "topic": "money",
+   "claim": "Family Savings is a shared Jason/Lucia account. Money put in can never be withdrawn or spent. Five tiers. It affects some interactions and influences the ending.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-family-savings/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.polygon.com/gta-6-phone-apps-list-how-to-use/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F030",
+   "topic": "money",
+   "claim": "Before ATMs, stash cash under Jason's bedroom floorboard; deposit at ATMs (find via BuckMe 'ATM Finder').",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-grand-theft-auto-beginners-tips-tricks/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F031",
+   "topic": "money",
+   "claim": "Early (Ch 1 to 2): rob Illegal Operations (Key Lento's Exotic Animals Front behind Three Sheets Liquor; Kingfisher Fishing Shacks and Manatee Hotel in the swamps) and sell narcotics to Brian or Donnie (Ch 1) or Dunk (Ch 2); sell cars; treasure-dive for Kenton.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.vice.com/en/article/gta-6-how-to-make-money-fast/",
+     "outlet": "VICE",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20",
+   "note": "VICE spells the Ch2 buyer 'Dunk' and also 'Bunk' in the same article."
+  },
+  {
+   "id": "F032",
+   "topic": "money",
+   "claim": "Stealing cars: Moses (Ch 2) buys older, low-profile cars, ~$1,000 to a few thousand each; Randy (Ch 3) pays more for high-end cars. Range quoted $1,000 to $20,000.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+     "outlet": "PC Gamer",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F033",
+   "topic": "money",
+   "claim": "Demolition Derby at Ambrosia Raceway: $3,800 to $6,300 per win, repeatable.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+     "outlet": "PC Gamer",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F034",
+   "topic": "money",
+   "claim": "Hunting for Bret (Killtelligence, Lummox County, Jason only, Ch 2): PC Gamer was paid $2,500 for a large boar; Polygon says up to a few thousand per pristine skin; Bret arranges pickup for large animals.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+     "outlet": "PC Gamer",
+     "published": "2026-11-18"
+    },
+    {
+     "url": "https://www.polygon.com/gta-6-how-to-make-money-become-rich-fast-grand-theft-auto/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F035",
+   "topic": "money",
+   "claim": "Back-door store robberies after the Ch 3 snap gun: $6,000 to $15,000 (PC Gamer). Jewellery stores: take value roughly $20,000 (Polygon), e.g. Victoria Lee Jeweler (Capri), Blanc and Giroux (Decor District).",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+     "outlet": "PC Gamer",
+     "published": "2026-11-18"
+    },
+    {
+     "url": "https://www.polygon.com/gta-6-how-to-make-money-become-rich-fast-grand-theft-auto/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F036",
+   "topic": "money",
+   "claim": "Pilot Pete's drops (meet in Ch 3, work in Ch 4): $10,000 to $20,000 per run.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+     "outlet": "PC Gamer",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F037",
+   "topic": "money",
+   "claim": "Selling a car at the Ocean Beach Pay 'N' Spray: roughly $7,000 for a valuable car (Polygon). Bank stick-up (cash registers only, late Ch 3): about $15,000 per robbery.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-how-to-make-money-become-rich-fast-grand-theft-auto/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F038",
+   "topic": "money",
+   "claim": "Pay 'N' Spray car-sale limits disagree: PC Gamer says three cars per day; VICE says a limit per 24 in-game hours (and Moses has no daily limit); Polygon says a brief cooldown.",
+   "status": "sources differ",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-steal-cars/",
+     "outlet": "PC Gamer",
+     "published": "2026-11-18"
+    },
+    {
+     "url": "https://www.vice.com/en/article/gta-6-how-to-make-money-fast/",
+     "outlet": "VICE",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.polygon.com/gta-6-how-to-make-money-become-rich-fast-grand-theft-auto/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F039",
+   "topic": "money",
+   "claim": "Don't worry too much about money early: the opening chapters can take 20+ hours and money gets easier later.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.theguardian.com/games/2026/nov/19/tips-for-playing-grand-theft-auto-vi",
+     "outlet": "The Guardian (Keza MacDonald)",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F040",
+   "topic": "vehicles",
+   "claim": "There are no car dealerships to buy from in the reputable guides checked: you take ownership by stealing a car and registering it (fee shown in the WAiNK app).",
+   "status": "confirmed (mechanic); 'no dealers' inferred from guides' silence, treat carefully",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-keep-stolen-vehicles-weapons-register/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-steal-cars/",
+     "outlet": "PC Gamer",
+     "published": "2026-11-18"
+    },
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-personal-vehicles-how-to-register-switch-recover-car/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F041",
+   "topic": "vehicles",
+   "claim": "Registration unlock order (Polygon): Ch 2 Moses registers untracked cars; Ch 3 any Pay 'N' Spray registers cars without advanced trackers; Randy (Ch 3) registers high-end cars even with trackers. Fee: a few thousand to tens of thousands of dollars.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-keep-stolen-vehicles-weapons-register/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F042",
+   "topic": "vehicles",
+   "claim": "You can't own extra personal vehicles until around the 30% story mark (Port Gellhorn/Moses). You start with four owned vehicle slots; buying garages adds slots; Valentina (mid-story) gives an Ocean Beach garage with two slots; 12+ slots possible.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/how-to-own-more-cars-and-other-vehicles-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F043",
+   "topic": "vehicles",
+   "claim": "Garage capacity disagreement: PC Gamer says each garage holds a single car; GameSpot says garages hold 'one or a couple of vehicles'.",
+   "status": "sources differ",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-steal-cars/",
+     "outlet": "PC Gamer",
+     "published": "2026-11-18"
+    },
+    {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F044",
+   "topic": "vehicles",
+   "claim": "Parking a stolen car in a garage keeps it safe but does not give ownership; leaving it outside means losing it.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-keep-stolen-vehicles-weapons-register/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-personal-vehicles-how-to-register-switch-recover-car/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F045",
+   "topic": "vehicles",
+   "claim": "Scooter Bros app delivers owned vehicles for a fee (more for distance/damage) and recovers impounded or destroyed personal vehicles; unlocks after Moses' quest in Ch 2.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-phone-apps-list-how-to-use/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-personal-vehicles-how-to-register-switch-recover-car/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.polygon.com/gta-6-grand-theft-auto-beginners-tips-tricks/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F046",
+   "topic": "vehicles",
+   "claim": "Car-stealing tools: WAiNK app (Ch 1 mission 'Unwanted Attention') scans lock, alarm, keyless, trackers, value, registration cost; slim jim from Moses (Ch 2 mission 'Moses'); key cloner (Ch 3 mission 'Steal the Zorruso for Randy') opens and starts keyless cars. Advanced trackers alert police unless you keep driving fast.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-steal-cars/",
+     "outlet": "PC Gamer",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F047",
+   "topic": "vehicles",
+   "claim": "Tank: the only Hauners Rhino tanks found are at Mile Zero Air Station, west of Key Lento in the Leonida Keys, usually in hangars on the north and south sides. Being spotted gives an instant five-star wanted level.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/how-to-get-a-tank-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F048",
+   "topic": "property",
+   "claim": "You can't buy your own home. The Vice City Real Estate app sells garages only (Polygon). Safehouses come with the story.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-phone-apps-list-how-to-use/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.vice.com/en/article/gta-6-can-you-buy-a-house-safehouses/",
+     "outlet": "VICE",
+     "published": "2026-11-17"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F049",
+   "topic": "property",
+   "claim": "Vice City Real Estate unlocks after Moses' first quest in Ch 2, when you steal the '82 Crawler for him.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-phone-apps-list-how-to-use/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20",
+   "note": "Non-list sources say after mission 'Daily Driver' (Ch 2, mission 6), which may be the same moment."
+  },
+  {
+   "id": "F050",
+   "topic": "property",
+   "claim": "Garage prices and locations: see prices table (10 garages per GameSpot).",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F051",
+   "topic": "saving",
+   "claim": "Manual save: Start/Options > Game > choose slot > Save Game. 15 manual slots plus one autosave slot (after missions, Wasted/Busted, major events). Can't save during missions. No mission replay. No in-game quit option.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-how-to-save/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19 (last updated)"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F052",
+   "topic": "saving",
+   "claim": "Using any cheat disables saving for that session.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-how-to-save/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19 (last updated)"
+    },
+    {
+     "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F053",
+   "topic": "switching",
+   "claim": "Free switching between Jason and Lucia unlocks after 'Breakfast Run' (Ch 2, mission 8), which may take 10+ hours. Hold Right on the D-pad and pick a profile (bottom right). Same menu can summon your partner or split up. Some missions are J-only or L-only.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-how-to-change-character-swap-jason-lucia-grand-theft-auto/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.gamespot.com/articles/how-long-to-beat-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F054",
+   "topic": "wanted",
+   "claim": "Stars show wanted level (up to six). 1 star ~ one police car, 2 stars several cars, 3 stars helicopter. Escape the red heat zone to clear stars.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-wanted-level-heat-how-to-lower-grand-theft-auto/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F055",
+   "topic": "wanted",
+   "claim": "Heat icons and fixes: appearance (cap/sunglasses/haircut), outfit (change clothes), vehicle (respray at Pay 'N' Spray or swap), visible weapon (holster or stow longarm in trunk), partner (split up), CCTV (destroy recorder; cloud CCTV can't be destroyed).",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-wanted-level-heat-how-to-lower-grand-theft-auto/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F056",
+   "topic": "wanted",
+   "claim": "Guardian: stealing a car is one star, robbing a store three or more, killing cops always adds a star.",
+   "status": "confirmed (single source)",
+   "sources": [
+    {
+     "url": "https://www.theguardian.com/games/2026/nov/19/tips-for-playing-grand-theft-auto-vi",
+     "outlet": "The Guardian (Keza MacDonald)",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20",
+   "note": "Polygon gives a looser description (robbery and hurting people ~two stars). Treat star counts as approximate."
+  },
+  {
+   "id": "F057",
+   "topic": "profile",
+   "claim": "A Criminal Profile tracks violence; unnecessary violence moves you from 'professional' towards 'psycho'/'irredeemable', with story and ending consequences.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.theguardian.com/games/2026/nov/19/tips-for-playing-grand-theft-auto-vi",
+     "outlet": "The Guardian (Keza MacDonald)",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-family-savings/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F058",
+   "topic": "phone",
+   "claim": "Open the phone with D-pad Up; hold Up for WAiNK shortcut.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-phone-apps-list-how-to-use/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.gamespot.com/articles/all-gta-6-smartphone-apps-and-what-they-do/",
+     "outlet": "GameSpot",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F059",
+   "topic": "phone",
+   "claim": "Apps: WhatUp (messages), Scooter Bros (vehicle delivery), RydeMe (taxi and fast travel; unlocks in 'Buck Me!'), Contacts, Camera, BuckMe (banking), Fitness, Gallery, Snapmatic (social), News, Weather, Vice City Real Estate (garages), WAiNK (vehicle scanner), Settings.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-phone-apps-list-how-to-use/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.gamespot.com/articles/all-gta-6-smartphone-apps-and-what-they-do/",
+     "outlet": "GameSpot",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F060",
+   "topic": "controls",
+   "claim": "Default control scheme maps sprint to the left stick (not X/A as in older Rockstar games); you can switch back to the classic style.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/gta-6-finally-changed-the-default-rockstar-game-controls/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F061",
+   "topic": "controls",
+   "claim": "Ducking while driving: Circle (PS5) / B (Xbox). Shoot from a vehicle: hold L1/LB and press R1/RB. Handbrake: X/A. Kick from a bike: Square/X.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-grand-theft-auto-beginners-tips-tricks/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F062",
+   "topic": "controls",
+   "claim": "Radio station change: hold Left on the D-pad. Headphones (electronics stores) let you listen on foot. 'Auto equip helmet' is in Settings > Gameplay.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-grand-theft-auto-beginners-tips-tricks/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F063",
+   "topic": "controls",
+   "claim": "Options let you set 'fast walk' as the default walking speed.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.theguardian.com/games/2026/nov/19/tips-for-playing-grand-theft-auto-vi",
+     "outlet": "The Guardian (Keza MacDonald)",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F064",
+   "topic": "tips",
+   "claim": "Zombix is the main healing item; buy at grocery stores. Focus mode outside combat highlights loot without draining.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-grand-theft-auto-beginners-tips-tricks/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F065",
+   "topic": "tips",
+   "claim": "During missions use 'retry checkpoint' from the pause menu to undo mistakes.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.theguardian.com/games/2026/nov/19/tips-for-playing-grand-theft-auto-vi",
+     "outlet": "The Guardian (Keza MacDonald)",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-how-to-save/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19 (last updated)"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F066",
+   "topic": "weapons",
+   "claim": "Owned weapons come from Ammu-Nation (or mission gifts); a purchase gives a copy to both Jason and Lucia. Dropped owned weapons are recoverable from the personal vehicle trunk or Ammu-Nation weapon lockers. Unowned (looted) weapons are lost if dropped or on Wasted/Busted; unique (gold icon) variants are permanent but can't be modded. Ammu-Nation stock expands the more you buy.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapon-ownership-explained/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.polygon.com/gta-6-keep-stolen-vehicles-weapons-register/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F067",
+   "topic": "weapons",
+   "claim": "Weapon prices: not found in the reputable outlets checked (only in fan wikis).",
+   "status": "unknown (reputable)",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapon-ownership-explained/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F068",
+   "topic": "cheats",
+   "claim": "Cheats only unlock after you finish the main story, and each cheat needs its own challenge. Enter by opening the phone, holding L1+R1 (LB+RB) and pressing D-pad directions. $250,000 money cheat: Up, Right, Down, Left, Up, Left, Down, Right (unlock: finish the story). Many codes still unknown.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F069",
+   "topic": "collectibles",
+   "claim": "Collectibles named by Polygon: cards, doubloons, meteorites (sell at pawn shops for a few hundred each). GameSpot's cheat list references collectible watches and 24 Vice City Flamingo cards.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.polygon.com/gta-6-how-to-make-money-become-rich-fast-grand-theft-auto/",
+     "outlet": "Polygon",
+     "published": "2026-11-19"
+    },
+    {
+     "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F070",
+   "topic": "collectibles",
+   "claim": "Full collectible location lists: not found in the reputable outlets checked (only fan sites).",
+   "status": "unknown (reputable)",
+   "sources": [],
+   "checked_on": "2026-11-20"
+  },
+  {
+   "id": "F071",
+   "topic": "vehicles",
+   "claim": "Pay 'n' Spray locations unlock during the Chapter 1 mission 'Just a Scratch'; they repair, respray (lowers vehicle heat) and buy cars. Sale money goes into BuckMe.",
+   "status": "confirmed",
+   "sources": [
+    {
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sell-cars-bikes-how-to/",
+     "outlet": "GamesRadar+",
+     "published": "2026-11-19"
+    }
+   ],
+   "checked_on": "2026-11-20"
+  }
+ ],
+ "prices": {
+  "garages": [
+   {
+    "name": "7th Avenue Garage",
+    "price_usd": 12000,
+    "where": "East of Vice City International Airport, south Vice-Dale County (NW of Tequesta, S of Salton)",
+    "bought_via": "Vice City Real Estate app or in person",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   },
+   {
+    "name": "Atlantic Court Garage",
+    "price_usd": 40000,
+    "where": "Ocean Beach, east of the 'Vice Beach' map text; S of the Y Hotel, SW of VYB Club",
+    "bought_via": "Vice City Real Estate app or in person",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   },
+   {
+    "name": "Bonita Court Garage",
+    "price_usd": 34000,
+    "where": "Centre of Washington Island (N of Washington Beach, E of Penmarch Isle)",
+    "bought_via": "Vice City Real Estate app or in person",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   },
+   {
+    "name": "Persistence Road Garage",
+    "price_usd": 9500,
+    "where": "Western Bellville, southern Leonard County",
+    "bought_via": "Vice City Real Estate app or in person",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   },
+   {
+    "name": "Wyatt Motors",
+    "price_usd": 21600,
+    "where": "Central Ambrosia, near the Pay 'N' Spray",
+    "bought_via": "Vice City Real Estate app or in person",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   },
+   {
+    "name": "Store 'N' Bolt",
+    "price_usd": 16800,
+    "where": "Northern Ambrosia, NW of Wyatt Motors, near the monument",
+    "bought_via": "Vice City Real Estate app or in person",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   },
+   {
+    "name": "Mitchel Auto Center",
+    "price_usd": 4000,
+    "where": "Central Kelly County, east of Port Gellhorn",
+    "bought_via": "Vice City Real Estate app or in person",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   },
+   {
+    "name": "Port Gellhorn Station Garage",
+    "price_usd": 0,
+    "where": "Port Gellhorn, N of Moses' shop; free from Moses in the story",
+    "bought_via": "story/edition (free)",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   },
+   {
+    "name": "Vela Rota Drive Garage",
+    "price_usd": 30000,
+    "where": "Middle of Capri",
+    "bought_via": "Vice City Real Estate app or in person",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   },
+   {
+    "name": "Paradise Garage",
+    "price_usd": 0,
+    "where": "NE Watson Bay; free from Wyman, Ultimate Edition (stores '67 Vapid Dominator Buggy)",
+    "bought_via": "story/edition (free)",
+    "source": {
+     "url": "https://www.gamespot.com/articles/all-garage-locations-and-prices-in-gta-6/",
+     "outlet": "GameSpot",
+     "published": "2026-11-18"
+    },
+    "checked_on": "2026-11-20"
+   }
+  ],
+  "garages_note": "GameSpot lists 10 garages; none in Lummox County. Other free garages from reputable/other coverage: Valentina's Ocean Beach garage (GameSpot, 2 slots); Shore Court garage with the pre-order '55 Vapid Stanier (PC Gamer). Non-list sources also mention a GTA+ Crosstown garage; not confirmed by a list outlet.",
+  "vehicles": [],
+  "vehicles_note": "No reputable outlet (IGN, Eurogamer, PC Gamer, GameSpot, Polygon, RPS, VGC, GamesRadar) publishes a per-model vehicle price list as of 2026-11-20. There are no dealerships in the guides checked; cars are stolen then registered, and each car's registration cost and sell value show in the WAiNK app. Fan wikis list figures (e.g. '95 Cheetah $32,750) but these are NOT reputable and are excluded.",
+  "vehicle_related_amounts": [
+   {
+    "item": "Car sale to Moses (Ch 2), older low-profile cars",
+    "amount": "~$1,000 to a few thousand",
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+    "outlet": "PC Gamer"
+   },
+   {
+    "item": "Stolen car sales overall (by make/model/fence)",
+    "amount": "$1,000 to $20,000",
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+    "outlet": "PC Gamer"
+   },
+   {
+    "item": "Valuable car sold at Ocean Beach Pay 'N' Spray",
+    "amount": "~$7,000",
+    "source": "https://www.polygon.com/gta-6-how-to-make-money-become-rich-fast-grand-theft-auto/",
+    "outlet": "Polygon"
+   },
+   {
+    "item": "Registration fee",
+    "amount": "a few thousand to tens of thousands of dollars, depends on car value",
+    "source": "https://www.polygon.com/gta-6-keep-stolen-vehicles-weapons-register/",
+    "outlet": "Polygon"
+   },
+   {
+    "item": "Scooter Bros impound recovery",
+    "amount": "'a few hundred dollars extra' (Polygon); 'significant fee' (GamesRadar)",
+    "source": "https://www.polygon.com/gta-6-grand-theft-auto-beginners-tips-tricks/",
+    "outlet": "Polygon / GamesRadar+"
+   },
+   {
+    "item": "Ambrosia Raceway rental car for demolition derby",
+    "amount": "'a few hundred'",
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+    "outlet": "PC Gamer"
+   }
+  ],
+  "properties_note": "Houses/businesses: you can't buy your own home (Polygon). No purchasable businesses found in reputable coverage. Garages are the only buyable property.",
+  "weapons_note": "Ammu-Nation prices: not in reputable outlets as of 2026-11-20 (fan wikis only).",
+  "money_activities": [
+   {
+    "activity": "Rob other criminals (crimes in progress)",
+    "payout": "$1,000 to $15,000",
+    "when": "any, best Ch 2 to 3",
+    "outlet": "PC Gamer",
+    "checked_on": "2026-11-20"
+   },
+   {
+    "activity": "Steal and sell cars",
+    "payout": "$1,000 to $20,000",
+    "when": "Ch 2 (Moses) onwards; Randy Ch 3",
+    "outlet": "PC Gamer",
+    "checked_on": "2026-11-20"
+   },
+   {
+    "activity": "Demolition Derby, Ambrosia Raceway",
+    "payout": "$3,800 to $6,300 per win",
+    "when": "when unlocked",
+    "outlet": "PC Gamer",
+    "checked_on": "2026-11-20"
+   },
+   {
+    "activity": "Hunting for Bret (Jason only)",
+    "payout": "hundreds to thousands; $2,500 boar example",
+    "when": "Ch 2",
+    "outlet": "PC Gamer / Polygon",
+    "checked_on": "2026-11-20"
+   },
+   {
+    "activity": "Back-door store robbery with snap gun",
+    "payout": "$6,000 to $15,000",
+    "when": "Ch 3",
+    "outlet": "PC Gamer",
+    "checked_on": "2026-11-20"
+   },
+   {
+    "activity": "Jewellery store safe (back door)",
+    "payout": "~ $20,000 take value",
+    "when": "Ch 3 (snap gun) best",
+    "outlet": "Polygon",
+    "checked_on": "2026-11-20"
+   },
+   {
+    "activity": "Bank stick-up, registers only",
+    "payout": "~ $15,000",
+    "when": "late Ch 3",
+    "outlet": "Polygon",
+    "checked_on": "2026-11-20"
+   },
+   {
+    "activity": "Pilot Pete's drops",
+    "payout": "$10,000 to $20,000",
+    "when": "Ch 4",
+    "outlet": "PC Gamer",
+    "checked_on": "2026-11-20"
+   },
+   {
+    "activity": "Mugging",
+    "payout": "'a couple of hundred' at most",
+    "when": "any",
+    "outlet": "PC Gamer",
+    "checked_on": "2026-11-20"
+   },
+   {
+    "activity": "Collectibles sold at pawn shops",
+    "payout": "'no more than a few hundred' per item",
+    "when": "any",
+    "outlet": "Polygon",
+    "checked_on": "2026-11-20"
+   }
+  ]
+ },
+ "ranked_pages": [
+  {
+   "rank": 1,
+   "slug": "how-to-make-money-fast",
+   "h1": "How to make money fast in GTA 6",
+   "answer": "Early on, rob Illegal Operations and sell the drugs to your fence, and sell stolen cars at Pay 'n' Spray or to Moses. From Chapter 3 the snap gun opens back-door robberies worth $6,000 to $15,000, and Pilot Pete's drops in Chapter 4 pay $10,000 to $20,000 a run.",
+   "sources": [
+    "PC Gamer money",
+    "Polygon money",
+    "VICE money",
+    "GamesRadar money"
+   ]
+  },
+  {
+   "rank": 2,
+   "slug": "can-you-buy-cars",
+   "h1": "How do you buy a car in GTA 6?",
+   "answer": "There's no dealer in the guides so far. You steal a car, then pay to register it: with Moses from Chapter 2, at Pay 'n' Spray from Chapter 3, and high-end cars with Randy. The WAiNK app shows each car's registration cost before you take it.",
+   "sources": [
+    "Polygon keep",
+    "PC Gamer steal",
+    "GamesRadar vehicles"
+   ]
+  },
+  {
+   "rank": 3,
+   "slug": "garage-prices-locations",
+   "h1": "All GTA 6 garage prices and locations",
+   "answer": "There are 10 garages, from Mitchel Auto Center at $4,000 to Atlantic Court in Ocean Beach at $40,000, bought in the Vice City Real Estate app. Two are free: Port Gellhorn Station (Moses) and Paradise Garage (Ultimate Edition).",
+   "sources": [
+    "GameSpot garages",
+    "Polygon apps"
+   ]
+  },
+  {
+   "rank": 4,
+   "slug": "can-you-buy-a-house",
+   "h1": "Can you buy a house in GTA 6?",
+   "answer": "No. You can't buy your own home: the Vice City Real Estate app only sells garages, and safehouses come with the story.",
+   "sources": [
+    "Polygon apps",
+    "VICE house"
+   ]
+  },
+  {
+   "rank": 5,
+   "slug": "how-to-save",
+   "h1": "How to save in GTA 6",
+   "answer": "Press Start or Options, choose Game, pick one of 15 slots and select Save Game. There's also one autosave slot, but you can't save mid-mission, and using a cheat stops saving for that session.",
+   "sources": [
+    "GamesRadar save",
+    "GameSpot cheats"
+   ]
+  },
+  {
+   "rank": 6,
+   "slug": "how-to-switch-characters",
+   "h1": "How to switch between Jason and Lucia",
+   "answer": "Free switching unlocks after the Chapter 2 mission 'Breakfast Run'. After that, hold Right on the D-pad and pick a character in the bottom right. The same menu can summon your partner or split you up.",
+   "sources": [
+    "Polygon switch",
+    "GameSpot mission list"
+   ]
+  },
+  {
+   "rank": 7,
+   "slug": "how-to-lose-wanted-level",
+   "h1": "How to lose your wanted level (heat) in GTA 6",
+   "answer": "First break line of sight and get out of the red heat zone on the map. Then clear each heat icon: change your outfit or put on a hat and sunglasses, swap or respray the car, stow longarms, split up from your partner and destroy CCTV.",
+   "sources": [
+    "Polygon wanted",
+    "Guardian tips"
+   ]
+  },
+  {
+   "rank": 8,
+   "slug": "cheats",
+   "h1": "GTA 6 cheats and how to unlock them",
+   "answer": "Cheats only unlock after you finish the story, and each one needs its own challenge. To enter one, open the phone, hold L1 and R1 (LB and RB) and press the D-pad code. The $250,000 cheat is Up, Right, Down, Left, Up, Left, Down, Right, and it disables saving.",
+   "sources": [
+    "GameSpot cheats",
+    "GamesRadar save"
+   ]
+  },
+  {
+   "rank": 9,
+   "slug": "release-time-uk",
+   "h1": "When did GTA 6 come out in the UK?",
+   "answer": "GTA 6 unlocked at midnight GMT on Thursday 19 November 2026 on PS5 and Xbox Series X|S. PS5 copies unlock by store region, and Xbox players could start earlier by changing their time zone.",
+   "sources": [
+    "PlayStation UK",
+    "PlayStation Blog",
+    "GamesRadar time"
+   ]
+  },
+  {
+   "rank": 10,
+   "slug": "price-and-editions",
+   "h1": "How much is GTA 6 in the UK? Standard vs Ultimate",
+   "answer": "Standard costs £69.99 and Ultimate £89.99 (US $79.99 and $99.99). Ultimate is digital and adds the '95 Grotti Cheetah, extra revolvers, a garage and buggy, and five extra shops. Boxed copies contain a download code, not a disc.",
+   "sources": [
+    "PC Gamer editions",
+    "IGN preload",
+    "The Verge"
+   ]
+  },
+  {
+   "rank": 11,
+   "slug": "file-size",
+   "h1": "How big is GTA 6? File size and storage",
+   "answer": "Rockstar says up to 212GB depending on device, and PlayStation's page says to clear at least 212GB. Preload opened on 10 November.",
+   "sources": [
+    "The Verge",
+    "Polygon preload",
+    "PlayStation US"
+   ]
+  },
+  {
+   "rank": 12,
+   "slug": "is-gta-6-online",
+   "h1": "Does GTA 6 have online multiplayer?",
+   "answer": "Not at launch. Rockstar calls GTA 6 a single-player experience and hasn't announced an online mode or a date, though existing GTA Online carries on.",
+   "sources": [
+    "IGN single-player",
+    "GameSpot"
+   ]
+  },
+  {
+   "rank": 13,
+   "slug": "is-gta-6-on-pc",
+   "h1": "Is GTA 6 on PC?",
+   "answer": "Not yet. It's on PS5 and Xbox Series X|S only, and Xbox One can play through Xbox Cloud Gaming. A GamesBeat report says PC is due in early 2027, but Rockstar hasn't confirmed it.",
+   "sources": [
+    "Rockstar out now",
+    "GameSpot PS5 Pro/cloud",
+    "Polygon PC"
+   ]
+  },
+  {
+   "rank": 14,
+   "slug": "bank-family-savings",
+   "h1": "How does the bank (BuckMe) and Family Savings work?",
+   "answer": "Each character can carry up to $20,000 in cash, and you lose it if you're Wasted or Busted, so bank it at an ATM. Purchases over $1,000 go through BuckMe checking. Money in Family Savings can never come back out, and it affects the ending.",
+   "sources": [
+    "GamesRadar bank",
+    "GamesRadar family"
+   ]
+  },
+  {
+   "rank": 15,
+   "slug": "where-to-find-a-tank",
+   "h1": "Where to find a tank in GTA 6",
+   "answer": "The only Rhino tanks found so far are at Mile Zero Air Station, west of Key Lento in the Leonida Keys, usually in hangars. If you're spotted getting in, you get an instant five-star wanted level.",
+   "sources": [
+    "GameSpot tank"
+   ]
+  },
+  {
+   "rank": 16,
+   "slug": "how-to-steal-cars",
+   "h1": "How to steal cars in GTA 6 (slim jim, key cloner, trackers)",
+   "answer": "Scan a car with the WAiNK app first. A slim jim from Moses (Chapter 2) opens locks quietly, and the key cloner from Chapter 3 is needed for keyless cars. Advanced trackers alert the police unless you keep driving fast.",
+   "sources": [
+    "PC Gamer steal"
+   ]
+  },
+  {
+   "rank": 17,
+   "slug": "phone-apps",
+   "h1": "Every GTA 6 phone app and what it does",
+   "answer": "Press Up on the D-pad for the phone. The key apps are BuckMe (bank), RydeMe (taxi and fast travel), Scooter Bros (car delivery), WAiNK (car scanner) and Vice City Real Estate (garages).",
+   "sources": [
+    "Polygon apps",
+    "GameSpot apps"
+   ]
+  },
+  {
+   "rank": 18,
+   "slug": "how-long-to-beat",
+   "h1": "How long is GTA 6 and how many missions?",
+   "answer": "There are 91 main missions over five chapters. GameSpot puts the story at 65+ hours, 90 to 100 with side content, and 200+ for 100%.",
+   "sources": [
+    "GameSpot length"
+   ]
+  }
+ ],
+ "tools": [
+  {
+   "tool": "Garage cost lookup and planner",
+   "slug": "tools/garage-cost-planner",
+   "data": "GameSpot's 10 garages with exact prices and locations; user ticks the ones they want, gets a total and the extra vehicle slots",
+   "honest": true
+  },
+  {
+   "tool": "Money planner (what can I afford, which activity next)",
+   "slug": "tools/money-planner",
+   "data": "Payout ranges per activity (PC Gamer, Polygon), garage prices (GameSpot), cash cap $20,000, $1,000 cash purchase limit (GamesRadar). Must show ranges, not exact sums.",
+   "honest": true
+  },
+  {
+   "tool": "UK launch time converter (recap)",
+   "slug": "tools/release-time-by-country",
+   "data": "Rolling local-midnight rule (PlayStation Blog); now historical, low value after 19 Nov",
+   "honest": true
+  },
+  {
+   "tool": "Vehicle price lookup",
+   "slug": null,
+   "data": "NOT supportable honestly: no reputable per-model price list exists; registration costs show in game via WAiNK. Could become a reader-submitted tool later, clearly labelled.",
+   "honest": false
+  },
+  {
+   "tool": "Weapon/Ammu-Nation price lookup",
+   "slug": null,
+   "data": "NOT supportable: only fan wikis list prices.",
+   "honest": false
+  },
+  {
+   "tool": "Cheat code finder",
+   "slug": "tools/cheat-finder",
+   "data": "GameSpot's cheat list with unlock challenges; many codes still blank",
+   "honest": true
+  }
+ ],
+ "domains": {
+  "checked_on": "2026-11-20",
+  "method": "RDAP via https://rdap.org/domain/<name> (404 = no registration record; validated with bbc.co.uk/google.com returning 200). .gg has no RDAP; checked DNS only (Cloudflare DoH NXDOMAIN), weaker evidence.",
+  "prices_usd": {
+   "porkbun_api_2026-11-20": {
+    "com": {
+     "first_year": 11.81,
+     "renewal": 11.81
+    },
+    "net": {
+     "first_year": 12.52,
+     "renewal": 12.52
+    },
+    "co.uk": {
+     "first_year": 5.66,
+     "renewal": 5.66
+    },
+    "gg": {
+     "first_year": 51.8,
+     "renewal": 51.8
+    }
+   },
+   "cloudflare_registrar_via_cfdomainpricing.com_2026-11-20": {
+    "com": {
+     "first_year": 10.46,
+     "renewal": 10.46
+    },
+    "net": {
+     "first_year": 11.86,
+     "renewal": 11.86
+    },
+    "co.uk": {
+     "first_year": 5.3,
+     "renewal": 5.3
+    },
+    "gg": "not offered"
+   },
+   "sources": [
+    "https://api.porkbun.com/api/json/v3/pricing/get (Porkbun public pricing API)",
+    "https://cfdomainpricing.com/ (unofficial tracker of Cloudflare Registrar at-cost prices)"
+   ]
+  },
+  "rdap": {
+   "gta6newplayer": {
+    "com": "404",
+    "net": "404",
+    "co.uk": "404",
+    "gg": "NXDOMAIN"
+   },
+   "newinleonida": {
+    "com": "404",
+    "net": "404",
+    "co.uk": "404",
+    "gg": "NXDOMAIN"
+   },
+   "gta6rookie": {
+    "com": "404",
+    "net": "404",
+    "co.uk": "404",
+    "gg": "NXDOMAIN"
+   },
+   "leonidarookie": {
+    "com": "404",
+    "net": "404",
+    "co.uk": "404",
+    "gg": "NXDOMAIN"
+   },
+   "gta6newbie": {
+    "com": "404",
+    "net": "404",
+    "co.uk": "404",
+    "gg": "NXDOMAIN"
+   },
+   "gta6beginnersguide": {
+    "com": "404",
+    "net": "404",
+    "co.uk": "404"
+   },
+   "vicecityrookie": {
+    "com": "404",
+    "net": "404",
+    "co.uk": "404"
+   },
+   "leonidanewbie": {
+    "com": "404",
+    "net": "404",
+    "co.uk": "404"
+   },
+   "gta6starterguide": {
+    "com": "200 TAKEN",
+    "net": "404",
+    "co.uk": "404"
+   },
+   "leonidafieldguide": {
+    "com": "200 TAKEN",
+    "net": "404",
+    "co.uk": "404"
+   },
+   "leonidaguide": {
+    "com": "200 TAKEN",
+    "net": "200 TAKEN",
+    "co.uk": "404"
+   },
+   "sixstarguide": {
+    "com": "200 TAKEN",
+    "net": "404",
+    "co.uk": "404"
+   }
+  },
+  "shortlist": [
+   {
+    "rank": 1,
+    "domain": "newinleonida.com",
+    "why": "Reads as a fan guide for new players; no 'GTA' or 'Rockstar' mark in the name, so lowest trademark risk of the shortlist. Pair with newinleonida.co.uk.",
+    "risk": "Low to medium: 'Leonida' is Rockstar's fictional setting name and could be claimed as a mark; not 'GTA'."
+   },
+   {
+    "rank": 2,
+    "domain": "gta6newplayer.com",
+    "why": "Exact match for 'GTA 6 new player' searches; plain fan-guide wording.",
+    "risk": "Higher: contains 'GTA', a Take-Two registered trade mark. A domain containing it could face a UDRP/Nominet DRS complaint and transfer, even with a disclaimer."
+   },
+   {
+    "rank": 3,
+    "domain": "leonidarookie.com",
+    "why": "Short, fan-sounding, no 'GTA'.",
+    "risk": "Low to medium, as for rank 1."
+   }
+  ],
+  "trademark_note": "'GTA' and 'Grand Theft Auto' are Take-Two/Rockstar trade marks. Putting 'gta' in a domain is the main risk: the owner can file a UDRP (for .com/.net) or Nominet DRS (.co.uk) complaint and may win transfer if the name is judged confusing or in bad faith; a clear 'unofficial fan guide' disclaimer, no logos/art and non-commercial use help but don't remove the risk. Names using only 'Leonida'/'Vice City' are lower risk but not zero. Not legal advice."
+ }
+}
