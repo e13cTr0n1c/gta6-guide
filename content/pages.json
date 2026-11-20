@@ -415,6 +415,25 @@
           "h2": "How the opening feels",
           "paragraphs": ["The opening is long, and free character switching is one of the things that waits."],
           "facts": ["F039", "F053"]
+        },
+        {
+          "sentence_links": [
+            {"text": "Want to track your missions and collectibles? "},
+            {
+              "text": "I made a free fill-it-in-yourself progress sheet",
+              "href": "https://arthurverse67.gumroad.com/l/openworldtrackerlite",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {"text": " "},
+            {
+              "text": "or the full version for £3.99",
+              "href": "https://arthurverse67.gumroad.com/l/openworldtracker",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {"text": ". It is a blank sheet you fill in yourself, not official data."}
+          ]
         }
       ],
       "related": ["how-to-switch-characters", "how-to-make-money-fast", "how-to-save", "is-gta-6-online"]
@@ -556,13 +575,13 @@
       "h1": "Gift ideas for a GTA 6 fan this Christmas",
       "description": "Two printable Christmas kits on Gumroad. The Lite one is free. This page states no game facts.",
       "lead": "I am not giving game advice on this page. For a Christmas extra, I have a free Lite kit and a full kit on Gumroad.",
-      "sources_note": "This page does not state a game fact. The figures below are the ones on the Gumroad pages I loaded on 20 November 2026.",
+      "sources_note": "This page does not state a game fact. The kit price is the £2.49 on the Gumroad summary I loaded on 20 November 2026. The progress sheet is a blank file you fill in yourself.",
       "sections": [
         {
           "h2": "The two kits",
           "paragraphs": [
-            "Gamer Gift Kit Lite is free. The page I loaded shows £0+ and the product data lists the price as 0.",
-            "The full Gamer Gift Kit is the paid one. The summary I was served shows £2.49, and the product data on that same page lists 3.26 USD. Those are not the same figure, so I am showing both."
+            "Gamer Gift Kit Lite is free. The page I loaded shows £0+.",
+            "The full Gamer Gift Kit is £2.49."
           ],
           "external_links": [
             {
@@ -577,6 +596,26 @@
               "outlet": "Gumroad",
               "published": "2026-11-20"
             }
+          ]
+        },
+        {
+          "keep": true,
+          "sentence_links": [
+            {"text": "Want to track your missions and collectibles? "},
+            {
+              "text": "I made a free fill-it-in-yourself progress sheet",
+              "href": "https://arthurverse67.gumroad.com/l/openworldtrackerlite",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {"text": " "},
+            {
+              "text": "or the full version for £3.99",
+              "href": "https://arthurverse67.gumroad.com/l/openworldtracker",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {"text": ". It is a blank sheet you fill in yourself, not official data."}
           ]
         }
       ],

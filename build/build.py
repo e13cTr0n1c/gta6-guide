@@ -337,11 +337,13 @@ def render_activity_list(facts: dict) -> str:
     return '<ul class="cards">' + "".join(items) + "</ul>"
 
 
-def render_sections(page: dict, facts: dict, by_id: dict[str, dict], env: dict[str, str]) -> tuple[str, list[str], list[dict]]:
-    html_parts: list[str] = []
+def render_sections(page: dict, facts: dict, by_id: dict[str, dict], env: dict[str, str]) -> tuple[str, str, list[str], list[dict]]:
+    main_parts: list[str] = []
+    keep_parts: list[str] = []
     fact_ids: list[str] = []
     extras: list[dict] = []
     for section in page.get("sections", []):
+        html_parts = keep_parts if section.get("keep") else main_parts
         html_parts.append("<section>")
         if section.get("h2"):
             html_parts.append(f"<h2>{esc(fill(section['h2'], env))}</h2>")
@@ -362,6 +364,24 @@ def render_sections(page: dict, facts: dict, by_id: dict[str, dict], env: dict[s
                     }
                 )
             html_parts.append("<ul>" + "".join(items) + "</ul>")
+        if section.get("sentence_links"):
+            bits = []
+            for bit in section["sentence_links"]:
+                reject_dash_punctuation(page["slug"], bit["text"])
+                if bit.get("href"):
+                    bits.append(
+                        f'<a href="{esc(bit["href"])}" rel="noopener">{esc(bit["text"])}</a>'
+                    )
+                    extras.append(
+                        {
+                            "url": bit["href"],
+                            "outlet": bit.get("outlet", "Gumroad"),
+                            "published": bit.get("published", ""),
+                        }
+                    )
+                else:
+                    bits.append(esc(bit["text"]))
+            html_parts.append("<p>" + "".join(bits) + "</p>")
         if section.get("garage_list"):
             html_parts.append(render_garage_list(facts))
             source = facts["prices"]["garages"][0]["source"]
@@ -391,7 +411,7 @@ def render_sections(page: dict, facts: dict, by_id: dict[str, dict], env: dict[s
             labelled.append({**extra, "outlet": "Polygon", "published": "2026-11-19"})
         else:
             labelled.append(extra)
-    return "".join(html_parts), fact_ids, labelled
+    return "".join(main_parts), "".join(keep_parts), fact_ids, labelled
 
 
 def render_unsupported(facts: dict) -> str:
@@ -736,7 +756,7 @@ def crumb_target_to_url(base: str, target: str) -> str:
 
 
 def build_main(page: dict, pages: dict, facts: dict, by_id: dict[str, dict], by_slug: dict[str, dict], env: dict[str, str], link_slug: str) -> tuple[str, list[str], list[dict]]:
-    sections, fact_ids, extras = render_sections(page, facts, by_id, env)
+    sections, kept, fact_ids, extras = render_sections(page, facts, by_id, env)
     widget = tool_widget(page, facts, by_id, link_slug)
     crumbs = crumb_html(link_slug, visible_crumbs(page, pages))
     note = fill(page.get("sources_note", ""), env)
@@ -744,9 +764,9 @@ def build_main(page: dict, pages: dict, facts: dict, by_id: dict[str, dict], by_
     checked = f'<p class="checked">Last checked: {esc(env["checked"])}</p>'
     heading = crumbs + f"<h1>{esc(page['h1'])}</h1>"
     if page.get("seasonal") == "gift":
-        main_top = heading + f'<div data-gift>{answer}{widget}{sections}</div>' + checked
+        main_top = heading + f'<div data-gift>{answer}{widget}{sections}</div>' + kept + checked
     else:
-        main_top = heading + answer + checked + widget + sections
+        main_top = heading + answer + checked + widget + sections + kept
     return main_top, fact_ids, extras
 
 

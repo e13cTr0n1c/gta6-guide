@@ -240,7 +240,22 @@ def main() -> None:
         check("day > 26" in text, f"{page.name} missing the 26 December hide rule")
     gift_page = (ROOT / "gift-ideas" / "index.html").read_text(encoding="utf-8")
     check("https://arthurverse67.gumroad.com/l/gamergiftkit" in gift_page, "Full kit link")
-    check("£2.49" in gift_page and "3.26 USD" in gift_page, "Both fetched full kit prices")
+    check("£2.49" in gift_page, "Full kit price in pounds")
+    check("3.26" not in gift_page and "5.23" not in gift_page, "Converted dollar prices should stay off the page")
+    gift_main = gift_page.split("<footer", 1)[0]
+    gift_start = gift_main.find('<div data-gift>')
+    gift_end = gift_main.find("</div>", gift_start)
+    check(gift_start != -1 and gift_end != -1, "Gift pitch wrapper")
+    check("openworldtracker" not in gift_main[gift_start:gift_end], "Progress sheet should stay outside the Christmas hide block")
+    check("openworldtrackerlite" in gift_main[gift_end:], "Gift page progress sheet line")
+    length_page = (ROOT / "how-long-to-beat" / "index.html").read_text(encoding="utf-8")
+    check('href="https://arthurverse67.gumroad.com/l/openworldtrackerlite"' in length_page, "Length page free sheet")
+    check('href="https://arthurverse67.gumroad.com/l/openworldtracker"' in length_page, "Length page full sheet")
+    check("£3.99" in length_page, "Full sheet price")
+    check('rel="noopener"' in length_page, "Progress sheet rel")
+    for page in pages:
+        footer = page.read_text(encoding="utf-8").split("<footer", 1)[-1]
+        check("openworldtracker" not in footer, f"{page.name} footer should not advertise the progress sheet")
     check("gift-ideas/" in (ROOT / "sitemap.xml").read_text(encoding="utf-8"), "Sitemap gift page")
     check("gift-ideas/index.html" in index, "Home links to gift ideas")
 
