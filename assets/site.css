@@ -289,6 +289,14 @@ input[type="search"] {
   color: #3f3228;
 }
 
+.gift-thumb {
+  display: block;
+  width: min(100%, 12.5rem);
+  height: auto;
+  margin: 0.7rem 0;
+  border-radius: 0.7rem;
+}
+
 .sources a,
 .citations a {
   overflow-wrap: anywhere;

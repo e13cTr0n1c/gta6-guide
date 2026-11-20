@@ -33,3 +33,4 @@ llms.txt
 assets/site.css
 assets/favicon.svg
 assets/tools.js
+assets/neon-night-drive.webp

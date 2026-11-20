@@ -32,4 +32,4 @@
 - [What is this GTA 6 fan guide?](https://e13ctr0n1c.github.io/gta6-guide/about/): An unofficial fan guide. I copy each game fact from published outlets and I keep the link.
 - [What data does this fan guide collect?](https://e13ctr0n1c.github.io/gta6-guide/privacy/): None. This static guide has no accounts, no analytics, and no third party scripts.
 - [Does this fan guide use cookies?](https://e13ctr0n1c.github.io/gta6-guide/cookies/): No. I do not set cookies, and the planners forget your ticks when you leave the page.
-- [Gift ideas for a GTA 6 fan this Christmas](https://e13ctr0n1c.github.io/gta6-guide/gift-ideas/): Two printable Christmas kits on Gumroad. The Lite one is free. This page states no game facts.
+- [Gift ideas for a GTA 6 fan this Christmas](https://e13ctr0n1c.github.io/gta6-guide/gift-ideas/): Printable kits and retro phone wallpapers. The lite ones are free. This page states no game facts.

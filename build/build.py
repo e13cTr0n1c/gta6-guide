@@ -364,6 +364,14 @@ def render_sections(page: dict, facts: dict, by_id: dict[str, dict], env: dict[s
                     }
                 )
             html_parts.append("<ul>" + "".join(items) + "</ul>")
+        if section.get("image"):
+            image = section["image"]
+            reject_dash_punctuation(page["slug"], image["alt"])
+            src = rel_asset(page["slug"], image["src"])
+            html_parts.append(
+                f'<img class="gift-thumb" src="{esc(src)}" width="{int(image["width"])}" height="{int(image["height"])}" '
+                f'alt="{esc(image["alt"])}" loading="lazy" decoding="async">'
+            )
         if section.get("sentence_links"):
             bits = []
             for bit in section["sentence_links"]:
@@ -1050,7 +1058,7 @@ def main() -> None:
     write_text("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {sitemap_url}\n", written)
     write_text("llms.txt", build_llms(base, pages, by_slug, checked), written)
     write_text(".nojekyll", "", written)
-    for name in ("site.css", "favicon.svg", "tools.js"):
+    for name in ("site.css", "favicon.svg", "tools.js", "neon-night-drive.webp"):
         copy_asset(name, written)
 
     # The first robots write is overwritten. Manifest should list robots once.

@@ -226,7 +226,9 @@ def main() -> None:
             continue
         if "node_modules" in path.parts or ".git" in path.parts:
             continue
-        check(path.suffix.lower() not in IMAGE_SUFFIXES, f"Unexpected image file {path}")
+        if path.suffix.lower() in IMAGE_SUFFIXES:
+            rel = path.relative_to(ROOT).as_posix()
+            check(rel in {"src/neon-night-drive.webp", "assets/neon-night-drive.webp"}, f"Unexpected image file {path}")
         if path.suffix.lower() == ".svg":
             check("screenshot" not in path.name.lower(), path.name)
 
@@ -246,7 +248,16 @@ def main() -> None:
     gift_start = gift_main.find('<div data-gift>')
     gift_end = gift_main.find("</div>", gift_start)
     check(gift_start != -1 and gift_end != -1, "Gift pitch wrapper")
-    check("openworldtracker" not in gift_main[gift_start:gift_end], "Progress sheet should stay outside the Christmas hide block")
+    gift_block = gift_main[gift_start:gift_end]
+    check("openworldtracker" not in gift_block, "Progress sheet should stay outside the Christmas hide block")
+    check('href="https://arthurverse67.gumroad.com/l/neonnightdrivelite"' in gift_block, "Wallpaper lite link hides with the gifts")
+    check('href="https://arthurverse67.gumroad.com/l/neonnightdrive"' in gift_block, "Wallpaper full link hides with the gifts")
+    check("Neon Night Drive Wallpapers Lite (free)" in gift_block, "Wallpaper lite link text")
+    check("or the full pack for £1.99" in gift_block, "Wallpaper full link text")
+    check("GTA" not in "Neon Night Drive Wallpapers Lite (free)" and "GTA" not in "or the full pack for £1.99", "Wallpaper link text has no game name")
+    check('alt="Neon Night Drive wallpaper preview"' in gift_block, "Wallpaper alt text")
+    check('loading="lazy"' in gift_block and 'width="200"' in gift_block and 'height="200"' in gift_block, "Wallpaper size and lazy load")
+    check("neonnightdrive" not in gift_page.split("<footer", 1)[-1], "Wallpaper stays off the footer")
     check("openworldtrackerlite" in gift_main[gift_end:], "Gift page progress sheet line")
     length_page = (ROOT / "how-long-to-beat" / "index.html").read_text(encoding="utf-8")
     check('href="https://arthurverse67.gumroad.com/l/openworldtrackerlite"' in length_page, "Length page free sheet")

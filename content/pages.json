@@ -573,9 +573,9 @@
       "kind": "info",
       "seasonal": "gift",
       "h1": "Gift ideas for a GTA 6 fan this Christmas",
-      "description": "Two printable Christmas kits on Gumroad. The Lite one is free. This page states no game facts.",
-      "lead": "I am not giving game advice on this page. For a Christmas extra, I have a free Lite kit and a full kit on Gumroad.",
-      "sources_note": "This page does not state a game fact. The kit price is the £2.49 on the Gumroad summary I loaded on 20 November 2026. The progress sheet is a blank file you fill in yourself.",
+      "description": "Printable kits and retro phone wallpapers. The lite ones are free. This page states no game facts.",
+      "lead": "I am not giving game advice on this page. For a Christmas extra, I have a free Lite kit, a full kit, and a free pack of retro phone wallpapers.",
+      "sources_note": "This page does not state a game fact. The full kit is £2.49 and the full wallpaper pack is £1.99 on the Gumroad summaries I loaded on 20 November 2026. The progress sheet is a blank file you fill in yourself.",
       "sections": [
         {
           "h2": "The two kits",
@@ -596,6 +596,22 @@
               "outlet": "Gumroad",
               "published": "2026-11-20"
             }
+          ]
+        },
+        {
+          "h2": "Phone wallpapers",
+          "paragraphs": ["A free pack of three retro phone wallpapers, and a larger pack if you want the rest."],
+          "image": {
+            "src": "assets/neon-night-drive.webp",
+            "width": 200,
+            "height": 200,
+            "alt": "Neon Night Drive wallpaper preview"
+          },
+          "sentence_links": [
+            {"text": "Neon Night Drive Wallpapers Lite (free)", "href": "https://arthurverse67.gumroad.com/l/neonnightdrivelite", "outlet": "Gumroad", "published": "2026-11-20"},
+            {"text": " "},
+            {"text": "or the full pack for £1.99", "href": "https://arthurverse67.gumroad.com/l/neonnightdrive", "outlet": "Gumroad", "published": "2026-11-20"},
+            {"text": "."}
           ]
         },
         {
