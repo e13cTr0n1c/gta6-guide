@@ -1,0 +1,34 @@
+# GTA 6 new player fan guide
+
+> Unofficial fan guide for new players. Not affiliated with Rockstar Games or Take-Two. I checked the facts on 20 November 2026. I do not invent figures.
+
+## Questions
+- [When did GTA 6 come out in the UK?](https://e13ctr0n1c.github.io/gta6-guide/release-time-uk/): GTA 6 unlocked in the UK at midnight GMT on 19 November 2026. This page records that launch.
+- [How much is GTA 6 in the UK? Standard vs Ultimate](https://e13ctr0n1c.github.io/gta6-guide/price-and-editions/): UK Standard is £69.99 and Ultimate is £89.99. A boxed copy is a download code, not a disc.
+- [How big is GTA 6? File size and storage](https://e13ctr0n1c.github.io/gta6-guide/file-size/): I would clear 212GB. Rockstar says up to 212GB, and PlayStation says at least 212GB.
+- [Does GTA 6 have online multiplayer?](https://e13ctr0n1c.github.io/gta6-guide/is-gta-6-online/): Not at launch. It is a single player game so far, and no online mode or date has been announced.
+- [Is GTA 6 on PC?](https://e13ctr0n1c.github.io/gta6-guide/is-gta-6-on-pc/): Not yet. GTA 6 is on PS5 and Xbox Series X|S. A reported PC date is still unconfirmed.
+- [How to make money fast in GTA 6](https://e13ctr0n1c.github.io/gta6-guide/how-to-make-money-fast/): I rob early, sell cars, then use Chapter 3 robberies and Chapter 4 drops. The guides publish ranges, not a single total.
+- [How does the bank (BuckMe) and Family Savings work?](https://e13ctr0n1c.github.io/gta6-guide/bank-family-savings/): I can hold $20,000 in cash and I lose it if I am Wasted or Busted. Family Savings cannot be withdrawn.
+- [How do you buy a car in GTA 6?](https://e13ctr0n1c.github.io/gta6-guide/can-you-buy-cars/): I have not found a dealer. I steal a car and pay to register it, and WAiNK shows the fee first.
+- [How to steal cars in GTA 6 (slim jim, key cloner, trackers)](https://e13ctr0n1c.github.io/gta6-guide/how-to-steal-cars/): I scan with WAiNK, use a slim jim from Chapter 2, and a key cloner from Chapter 3 for keyless cars.
+- [All GTA 6 garage prices and locations](https://e13ctr0n1c.github.io/gta6-guide/garage-prices-locations/): I list 10 garages, from $4,000 to $40,000, plus two free ones. Slot counts differ between the guides.
+- [Can you buy a house in GTA 6?](https://e13ctr0n1c.github.io/gta6-guide/can-you-buy-a-house/): No. I cannot buy a home in GTA 6. The estate app sells garages, and safehouses come with the story.
+- [Where to find a tank in GTA 6](https://e13ctr0n1c.github.io/gta6-guide/where-to-find-a-tank/): The Hauners Rhino tanks in the guide are at Mile Zero Air Station. Getting spotted means five stars.
+- [How to save in GTA 6](https://e13ctr0n1c.github.io/gta6-guide/how-to-save/): I open Start or Options, choose Game, and use one of 15 slots. A cheat blocks saving for that session.
+- [How to switch between Jason and Lucia](https://e13ctr0n1c.github.io/gta6-guide/how-to-switch-characters/): Switching unlocks after Breakfast Run. I hold Right on the D-pad and pick Jason or Lucia.
+- [How to lose your wanted level (heat) in GTA 6](https://e13ctr0n1c.github.io/gta6-guide/how-to-lose-wanted-level/): I leave the red heat zone, then clear heat with clothes, a respray, a stowed weapon, or by splitting up.
+- [GTA 6 cheats and how to unlock them](https://e13ctr0n1c.github.io/gta6-guide/cheats/): Cheats unlock after the story. I enter them on the phone, and saving stops for that session.
+- [Every GTA 6 phone app and what it does](https://e13ctr0n1c.github.io/gta6-guide/phone-apps/): I press Up for the phone. BuckMe, RydeMe, Scooter Bros, WAiNK and Vice City Real Estate are the key apps.
+- [How long is GTA 6 and how many missions?](https://e13ctr0n1c.github.io/gta6-guide/how-long-to-beat/): There are 91 main missions. The story is 65+ hours, side content is 90 to 100, and 100% is past 200.
+
+## Tools
+- [Which GTA 6 planning tools does this guide include?](https://e13ctr0n1c.github.io/gta6-guide/tools/): Three planners for garages, money ranges, and the one published cheat. No vehicle or weapon price lookup.
+- [What do my chosen GTA 6 garages cost?](https://e13ctr0n1c.github.io/gta6-guide/tools/garage-cost-planner/): I add the published garage prices and show both slot readings, because the guides do not agree.
+- [What payout ranges do the GTA 6 guides publish?](https://e13ctr0n1c.github.io/gta6-guide/tools/money-planner/): I show activity payout ranges and the cash limits. These are estimates from published guides, not exact sums.
+- [Which GTA 6 cheat codes have been published?](https://e13ctr0n1c.github.io/gta6-guide/tools/cheat-finder/): I can search the one money code in the fact file. Many GTA 6 cheat codes are still unknown.
+
+## Site
+- [What is this GTA 6 fan guide?](https://e13ctr0n1c.github.io/gta6-guide/about/): An unofficial fan guide. I copy each game fact from published outlets and I keep the link.
+- [What data does this fan guide collect?](https://e13ctr0n1c.github.io/gta6-guide/privacy/): None. This static guide has no accounts, no analytics, and no third party scripts.
+- [Does this fan guide use cookies?](https://e13ctr0n1c.github.io/gta6-guide/cookies/): No. I do not set cookies, and the planners forget your ticks when you leave the page.
