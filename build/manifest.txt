@@ -23,6 +23,7 @@ tools/cheat-finder/index.html
 about/index.html
 privacy/index.html
 cookies/index.html
+gift-ideas/index.html
 404.html
 index.html
 sitemap.xml

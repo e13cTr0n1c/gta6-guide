@@ -347,6 +347,21 @@ def render_sections(page: dict, facts: dict, by_id: dict[str, dict], env: dict[s
             html_parts.append(f"<h2>{esc(fill(section['h2'], env))}</h2>")
         for paragraph in section.get("paragraphs", []):
             html_parts.append(f"<p>{esc(fill(paragraph, env))}</p>")
+        if section.get("external_links"):
+            items = []
+            for link in section["external_links"]:
+                reject_dash_punctuation(page["slug"], link["label"])
+                items.append(
+                    f'<li><a href="{esc(link["href"])}" rel="noopener">{esc(link["label"])}</a></li>'
+                )
+                extras.append(
+                    {
+                        "url": link["href"],
+                        "outlet": link.get("outlet", "Gumroad"),
+                        "published": link.get("published", ""),
+                    }
+                )
+            html_parts.append("<ul>" + "".join(items) + "</ul>")
         if section.get("garage_list"):
             html_parts.append(render_garage_list(facts))
             source = facts["prices"]["garages"][0]["source"]
@@ -635,9 +650,25 @@ def layout(page: dict) -> str:
 <div class="wrap">
 <nav aria-label="Footer">{''.join(footer_links)}</nav>
 <p>Unofficial fan guide, not affiliated with Rockstar Games or Take-Two.</p>
+<p data-gift><a href="https://arthurverse67.gumroad.com/l/gamergiftkitlite" rel="noopener">Gifting a gamer this Christmas? Try my free Gamer Gift Kit Lite</a></p>
 </div>
 </footer>
 {scripts}
+<script>
+(function () {{
+  var now = new Date();
+  var year = now.getFullYear();
+  var month = now.getMonth();
+  var day = now.getDate();
+  var ended = year > 2026 || (year === 2026 && month === 11 && day > 26);
+  if (!ended) {{
+    return;
+  }}
+  document.querySelectorAll("[data-gift]").forEach(function (node) {{
+    node.remove();
+  }});
+}})();
+</script>
 </body>
 </html>
 """
@@ -709,15 +740,13 @@ def build_main(page: dict, pages: dict, facts: dict, by_id: dict[str, dict], by_
     widget = tool_widget(page, facts, by_id, link_slug)
     crumbs = crumb_html(link_slug, visible_crumbs(page, pages))
     note = fill(page.get("sources_note", ""), env)
-    # Filled later once sources exist. Placeholder returned via parts.
-    main_top = (
-        crumbs
-        + f"<h1>{esc(page['h1'])}</h1>"
-        + f'<p class="answer">{esc(fill(page["lead"], env))}</p>'
-        + f'<p class="checked">Last checked: {esc(env["checked"])}</p>'
-        + widget
-        + sections
-    )
+    answer = f'<p class="answer">{esc(fill(page["lead"], env))}</p>'
+    checked = f'<p class="checked">Last checked: {esc(env["checked"])}</p>'
+    heading = crumbs + f"<h1>{esc(page['h1'])}</h1>"
+    if page.get("seasonal") == "gift":
+        main_top = heading + f'<div data-gift>{answer}{widget}{sections}</div>' + checked
+    else:
+        main_top = heading + answer + checked + widget + sections
     return main_top, fact_ids, extras
 
 
@@ -764,6 +793,9 @@ def home_main(pages: dict, by_slug: dict[str, dict], facts: dict, by_id: dict[st
         + "<ul>"
         + "".join(tool_links)
         + "</ul></section>"
+        + '<p class="gift-note" data-gift><a href="'
+        + esc(rel_href("", "gift-ideas"))
+        + '">Gift ideas for a GTA 6 fan this Christmas</a></p>'
     )
     return main, ["F001", "F003"]
 
@@ -831,7 +863,7 @@ def build_llms(base: str, pages: dict, by_slug: dict[str, dict], checked: str) -
         lines.append(f"- [{page['h1']}]({abs_url(base, slug)}): {page['description']}")
     lines.append("")
     lines.append("## Site")
-    for slug in ("about", "privacy", "cookies"):
+    for slug in ("about", "privacy", "cookies", "gift-ideas"):
         page = by_slug[slug]
         lines.append(f"- [{page['h1']}]({abs_url(base, slug)}): {page['description']}")
     lines.append("")

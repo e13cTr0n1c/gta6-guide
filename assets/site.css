@@ -284,6 +284,11 @@ input[type="search"] {
   margin-top: 0.2rem;
 }
 
+.gift-note {
+  margin-top: 1.4rem;
+  color: #3f3228;
+}
+
 .sources a,
 .citations a {
   overflow-wrap: anywhere;

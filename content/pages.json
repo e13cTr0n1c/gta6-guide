@@ -550,6 +550,39 @@
       "related": ["privacy", "about", "tools"]
     },
     {
+      "slug": "gift-ideas",
+      "kind": "info",
+      "seasonal": "gift",
+      "h1": "Gift ideas for a GTA 6 fan this Christmas",
+      "description": "Two printable Christmas kits on Gumroad. The Lite one is free. This page states no game facts.",
+      "lead": "I am not giving game advice on this page. For a Christmas extra, I have a free Lite kit and a full kit on Gumroad.",
+      "sources_note": "This page does not state a game fact. The figures below are the ones on the Gumroad pages I loaded on 20 November 2026.",
+      "sections": [
+        {
+          "h2": "The two kits",
+          "paragraphs": [
+            "Gamer Gift Kit Lite is free. The page I loaded shows £0+ and the product data lists the price as 0.",
+            "The full Gamer Gift Kit is the paid one. The summary I was served shows £2.49, and the product data on that same page lists 3.26 USD. Those are not the same figure, so I am showing both."
+          ],
+          "external_links": [
+            {
+              "label": "Gamer Gift Kit Lite",
+              "href": "https://arthurverse67.gumroad.com/l/gamergiftkitlite",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            },
+            {
+              "label": "Gamer Gift Kit",
+              "href": "https://arthurverse67.gumroad.com/l/gamergiftkit",
+              "outlet": "Gumroad",
+              "published": "2026-11-20"
+            }
+          ]
+        }
+      ],
+      "related": ["about"]
+    },
+    {
       "slug": "404",
       "kind": "info",
       "h1": "I cannot find that page",

@@ -65,8 +65,24 @@
 <div class="wrap">
 <nav aria-label="Footer"><a href="../about/index.html">About</a><a href="../privacy/index.html">Privacy</a><a href="index.html">Cookies</a></nav>
 <p>Unofficial fan guide, not affiliated with Rockstar Games or Take-Two.</p>
+<p data-gift><a href="https://arthurverse67.gumroad.com/l/gamergiftkitlite" rel="noopener">Gifting a gamer this Christmas? Try my free Gamer Gift Kit Lite</a></p>
 </div>
 </footer>
 
+<script>
+(function () {
+  var now = new Date();
+  var year = now.getFullYear();
+  var month = now.getMonth();
+  var day = now.getDate();
+  var ended = year > 2026 || (year === 2026 && month === 11 && day > 26);
+  if (!ended) {
+    return;
+  }
+  document.querySelectorAll("[data-gift]").forEach(function (node) {
+    node.remove();
+  });
+})();
+</script>
 </body>
 </html>

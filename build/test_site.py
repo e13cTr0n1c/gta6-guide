@@ -230,6 +230,20 @@ def main() -> None:
         if path.suffix.lower() == ".svg":
             check("screenshot" not in path.name.lower(), path.name)
 
+    gift_line = "Gifting a gamer this Christmas? Try my free Gamer Gift Kit Lite"
+    gift_href = "https://arthurverse67.gumroad.com/l/gamergiftkitlite"
+    for page in pages:
+        text = page.read_text(encoding="utf-8")
+        check(gift_line in text, f"{page.name} missing the footer gift line")
+        check(f'href="{gift_href}" rel="noopener"' in text, f"{page.name} gift link rel")
+        check('data-gift' in text, f"{page.name} missing the gift wrapper")
+        check("day > 26" in text, f"{page.name} missing the 26 December hide rule")
+    gift_page = (ROOT / "gift-ideas" / "index.html").read_text(encoding="utf-8")
+    check("https://arthurverse67.gumroad.com/l/gamergiftkit" in gift_page, "Full kit link")
+    check("£2.49" in gift_page and "3.26 USD" in gift_page, "Both fetched full kit prices")
+    check("gift-ideas/" in (ROOT / "sitemap.xml").read_text(encoding="utf-8"), "Sitemap gift page")
+    check("gift-ideas/index.html" in index, "Home links to gift ideas")
+
     robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
     check("Sitemap: https://e13ctr0n1c.github.io/gta6-guide/sitemap.xml" in robots, "robots sitemap")
     sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
